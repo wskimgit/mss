@@ -1,0 +1,17 @@
+{
+  "system": "MSS",
+  "current": "v4.12.0",
+  "previous": "v4.11.0",
+  "status": "FROZEN_CURRENT",
+  "authority": "SINGLE_CURRENT",
+  "master_path": "master/MSS_MASTER_v4.12.0_FROZEN_CURRENT.md",
+  "sha256": "763954112b27fa63e1123f1dabe2eb9162847d432240c28973ec1bac89aee415",
+  "runtime_manifest": "mss_dataset/run_manifest.json",
+  "regression": {
+    "passed": 58,
+    "failed": 0,
+    "total": 58
+  },
+  "ai_final_approval": "APPROVED",
+  "auto_freeze": "COMPLETE"
+}
