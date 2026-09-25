@@ -1,0 +1,41 @@
+{
+  "schema": "mss_run_manifest_v1",
+  "run_id": "20260925-MSS-v4.11.0-R1",
+  "mss_version": "v4.11.0",
+  "execution_date": "2026-09-25",
+  "market_date": {
+    "KR": "2026-09-23",
+    "US": "2026-09-24"
+  },
+  "actual_scan_path": "PRIMARY BULK → NORMALIZE/DEDUPE → SCORE ALL ELIGIBLE → LEVEL1 300+300 → LEVEL2 40+40 → LEVEL3 20+20 → LEVEL4 10+10 → AI REVIEW",
+  "recovery_path": "Targeted daily OHLCV history → StockAnalysis cross-validation → Best Available Evidence",
+  "dataset_paths": [
+    "mss_dataset/universe_kr.csv",
+    "mss_dataset/universe_us.csv",
+    "mss_dataset/level1_market.csv",
+    "mss_dataset/level2_trend.csv",
+    "mss_dataset/level3_pullback.csv",
+    "mss_dataset/level4_6gate.csv",
+    "mss_dataset/source_manifest.json",
+    "mss_dataset/scan_counter.json",
+    "mss_dataset/run_manifest.json"
+  ],
+  "asset_status": "CREATED_AND_PERSISTED_TO_GITHUB",
+  "newly_acquired_assets": [
+    "universe_kr.csv",
+    "universe_us.csv",
+    "level1_market.csv",
+    "level2_trend.csv",
+    "level3_pullback.csv",
+    "level4_6gate.csv",
+    "source_manifest.json",
+    "scan_counter.json",
+    "run_manifest.json"
+  ],
+  "unresolved_assets": [
+    "Full daily historical OHLCV for every US Level3 provisional symbol is not yet bulk-persisted.",
+    "KR broad sector mapping is derived from Industry; official KRX sector taxonomy not yet persisted."
+  ],
+  "next_run_preferred_path": "Read wskimgit/mss/mss_dataset/run_manifest.json → validate market_date/source SHA → reuse valid assets → refresh stale bulk universe → rerun staged compression → fetch/backfill only unresolved deep-history candidates",
+  "reuse_readiness": "READY_WITH_TARGETED_BACKFILL"
+}
