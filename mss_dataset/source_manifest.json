@@ -1,0 +1,71 @@
+{
+  "schema": "mss_source_manifest_v1",
+  "run_id": "20260925-MSS-v4.11.0-R1",
+  "mss_version": "v4.11.0",
+  "markets": {
+    "KR": {
+      "market_date": "2026-09-23",
+      "primary": {
+        "provider": "FinanceData/fdr_krx_data_cache",
+        "path": "data/listing/krx/2026-09-23.csv",
+        "source_sha": "8c1f45c56c686f5fc28af10b7b17a90e5bd0e180",
+        "status": "OK"
+      },
+      "historical_anchors": [
+        {
+          "date": "2026-09-16",
+          "path": "data/listing/krx/2026-09-16.csv"
+        },
+        {
+          "date": "2026-08-24",
+          "path": "data/listing/krx/2026-08-24.csv"
+        },
+        {
+          "date": "2026-06-24",
+          "path": "data/listing/krx/2026-06-24.csv"
+        },
+        {
+          "date": "2026-03-24",
+          "path": "data/listing/krx/2026-03-24.csv"
+        }
+      ],
+      "metadata": {
+        "path": "data/listing/desc/2026-09-17.csv",
+        "source_sha": "51532ae440d8cd8fa47468d0397faa5f9500b7d0"
+      },
+      "sector_note": "MSS broad sector is deterministically derived from Industry and is not an official KRX sector taxonomy.",
+      "deep_validation": {
+        "provider": "StockAnalysis historical pages / S&P Global Market Intelligence",
+        "status": "TARGETED_PARTIAL"
+      }
+    },
+    "US": {
+      "market_date": "2026-09-24",
+      "primary": {
+        "provider": "zyhe16/top-us-stock-tickers",
+        "path": "data/v2/tickers.csv",
+        "source_sha": "dc1d860016261b82e447d43c0a8c930735565842",
+        "generated_at": "2026-09-24T15:12:23Z",
+        "upstream": "Nasdaq screener snapshot",
+        "status": "OK"
+      },
+      "deep_validation": {
+        "provider": "Pubmarks/datasets",
+        "path_pattern": "data/stocks/<TICKER>/2026/ohlcv.csv",
+        "status": "OK_LIMITED_SYMBOL_SET"
+      },
+      "cross_validation": {
+        "provider": "StockAnalysis historical pages / S&P Global Market Intelligence",
+        "status": "TARGETED_PARTIAL"
+      }
+    }
+  },
+  "normalization": {
+    "dedupe_key": {
+      "KR": "Code",
+      "US": "symbol"
+    },
+    "count_method": "UNIQUE_SYMBOL_ACTUAL_PROCESSED",
+    "fabrication": 0
+  }
+}
