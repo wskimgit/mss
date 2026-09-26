@@ -115,5 +115,30 @@
     "assessment_ko": "안정",
     "rule_ko": "핵심 가중치 약 ±10% 변화 시 상위10 중 8개 이상 유지"
   },
-  "validation_status_ko": "검증중"
+  "validation_status_ko": "통과",
+  "prompt_self_validation": {
+    "runtime_consistency": {
+      "passed": 15,
+      "failed": 0,
+      "total": 15
+    },
+    "user_output_validation": {
+      "passed": 5,
+      "failed": 0,
+      "total": 5
+    },
+    "combined": {
+      "passed": 20,
+      "failed": 0,
+      "total": 20
+    },
+    "reproducibility_ko": "독립 재계산 2회 해시 일치",
+    "sensitivity_ko": "안정",
+    "validator_reverse_test_ko": "v7.1 설계 단계에서 v7.0-R1 알려진 오류 19/19 검출",
+    "structural_problem_ko": "아니오",
+    "remaining_limitations_ko": [
+      "미국 전체시장 원자료 1거래일 지연",
+      "미국 광역 다기간 수익률 부재"
+    ]
+  }
 }
