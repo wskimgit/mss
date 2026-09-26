@@ -1,17 +1,26 @@
 {
   "system": "MSS",
-  "current": "v4.11.0",
-  "previous": "v4.10.1",
+  "current": "v5.0.0",
+  "previous": "v4.11.0",
   "status": "FROZEN_CURRENT",
   "authority": "SINGLE_CURRENT",
-  "master_path": "master/MSS_MASTER_v4.11.0_FROZEN_CURRENT.md",
-  "sha256": "3dc2135bbc23480793e24b501e8eea2129ec18fb275345e742562a1393e0aed4",
-  "runtime_manifest": "mss_dataset/run_manifest.json",
-  "regression": {
-    "passed": 54,
-    "failed": 0,
-    "total": 54
+  "master_path": "master/MSS_MASTER_v5.0.0_FROZEN_CURRENT.md",
+  "master_hash": {
+    "algorithm": "git_blob_sha1",
+    "value": "145cfa5aa5024dfbb7251d3bb49716f6b312598a"
   },
+  "sha256": null,
+  "regression_report": "master/MSS_v5.0.0_REGRESSION_REPORT.json",
+  "regression": {
+    "passed": 80,
+    "failed": 0,
+    "total": 80
+  },
+  "structural_dry_run": "PASS",
+  "alarm_lineage": "ALARM_MS7-STC_DISTRIBUTION_v1.0.3",
+  "runtime_manifest": "mss_dataset/run_manifest.json",
+  "runtime_status": "V4.11_ASSET_INPUT_COMPATIBLE; V5_EXECUTION_PENDING",
   "ai_final_approval": "APPROVED",
-  "auto_freeze": "COMPLETE"
+  "auto_freeze": "COMPLETE",
+  "pointer_rule": "current.json is the sole CURRENT authority; internal CURRENT labels in historical files are non-authoritative."
 }
