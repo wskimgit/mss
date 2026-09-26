@@ -1,0 +1,86 @@
+{
+  "schema": "mss_fresh_discovery_v6_2",
+  "run_id": "20260926-MSS-v6.2.0-R1",
+  "mss_version": "v6.2.0",
+  "prior_recommendations_used_as_seed": false,
+  "prior_rank_or_score_reused": false,
+  "raw_market_assets_reused_after_freshness_validation": true,
+  "current_run_scoring_rebuilt": true,
+  "modules_used": [
+    "fresh current-run market scoring",
+    "multi-horizon returns for KR",
+    "market-cap/liquidity/volume",
+    "direct price-position and overextension",
+    "sector leadership",
+    "latest earnings/guidance/material-event context",
+    "source/date contradiction checks"
+  ],
+  "final_candidates": [
+    {
+      "market": "US",
+      "symbol": "NVDA",
+      "state": "SELECT_NOW",
+      "confidence": "HIGH"
+    },
+    {
+      "market": "US",
+      "symbol": "LLY",
+      "state": "SELECT_NOW",
+      "confidence": "HIGH"
+    },
+    {
+      "market": "KR",
+      "symbol": "000150",
+      "state": "SELECT_NOW",
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "market": "KR",
+      "symbol": "036930",
+      "state": "STABILIZING",
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "market": "KR",
+      "symbol": "001820",
+      "state": "STABILIZING",
+      "confidence": "MEDIUM_HIGH"
+    }
+  ],
+  "previous_run_comparison_after_selection": {
+    "previous_top": [
+      "ANET",
+      "009150",
+      "V"
+    ],
+    "current_top": [
+      "NVDA",
+      "LLY",
+      "000150"
+    ],
+    "overlap": [],
+    "interpretation": "Fresh-discovery contract materially changed the candidate set; no incumbent slot was protected."
+  },
+  "independent_review": {
+    "anchoring_bias_check": "PASS",
+    "false_positive_review": "PASS",
+    "false_negative_review": "PASS_WITH_US_BULK_SEP24_LIMITATION",
+    "strongest_rejections": {
+      "AMD": "Record-high price position after ~194% YTD return.",
+      "MU": "Sep30 earnings event too close.",
+      "META": "30D surge followed by Sep25 reversal; still close to record high.",
+      "TES_095610": "Excellent fundamentals but +8.95% Sep23 breakout creates immediate chase risk.",
+      "SIMMTECH_222800": "Near 52-week high after +42% one-month rise."
+    }
+  },
+  "prompt_self_validation": {
+    "fresh_discovery_from_latest_universe": "PASS",
+    "previous_recommendation_priority": "NONE",
+    "prior_candidate_comparison_only_after_selection": "PASS",
+    "non_executable_step_remaining": "NO",
+    "lower_rule_override": "NO",
+    "structural_problem": "NO",
+    "rule_change": "NO",
+    "version_action": "KEEP_v6.2.0_FROZEN_CURRENT"
+  }
+}
