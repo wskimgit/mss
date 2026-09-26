@@ -1,0 +1,51 @@
+{
+  "schema": "mss_master_regression_v6",
+  "version": "v6.0.0",
+  "parent_version": "v5.0.0",
+  "date": "2026-09-26",
+  "change_type": "MAJOR",
+  "candidate_path": "master/candidates/MSS_MASTER_v6.0.0_CANDIDATE.md",
+  "candidate_blob_sha": "3361881b6bae3ea4d5f5f9c9aee5585d5871a7b7",
+  "frozen_master_path": "master/MSS_MASTER_v6.0.0_FROZEN_CURRENT.md",
+  "frozen_master_git_blob_sha": "f28b36afb6a1000775c368c74f0b821639465730",
+  "master_identity": {
+    "algorithm": "git_blob_sha1",
+    "value": "f28b36afb6a1000775c368c74f0b821639465730"
+  },
+  "contract_regression": {
+    "passed": 84,
+    "failed": 0,
+    "total": 84,
+    "status": "PASS"
+  },
+  "structural_dry_run": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "status": "PASS",
+    "cases": [
+      "missing STC/60m does not automatically veto AI judgment",
+      "positive STC does not force positive AI judgment",
+      "recurring DATA HOLD triggers prompt structural review",
+      "validated universe reused without repeated full rescan",
+      "source fetch/bar/completed-day dates stay separate",
+      "v5 PARTIAL_DATA_HOLD becomes evidence-state information rather than a mandatory veto"
+    ]
+  },
+  "core_changes": [
+    "AI FINAL remains highest decision authority inside FACT INTEGRITY",
+    "MS7/STC/60m become optional evidence modules rather than mandatory gates",
+    "candidate judgment uses adaptive evidence sufficiency across Trend/Sustainability/Timing/Risk",
+    "prompt self-validation audits the MSS instruction itself every run",
+    "repeated DATA HOLD that blocks the objective becomes a structural problem",
+    "time-bounded one-pass universe scan and progressive compression are preserved",
+    "runtime assets, counters, provenance, source-date semantics, and historical masters remain inherited"
+  ],
+  "unapproved_removed_features": [],
+  "parent_required_contracts_preserved": true,
+  "ai_final_approval": "APPROVED",
+  "auto_freeze": "COMPLETE",
+  "runtime_execution_after_freeze": "NOT_RUN",
+  "runtime_note": "Existing v5 runtime assets are compatible INPUT only. First v6 MSS execution must write a v6 run_manifest and evidence-module log.",
+  "status": "REGRESSION_PASS"
+}
