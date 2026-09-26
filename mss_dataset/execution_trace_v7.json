@@ -3,7 +3,7 @@
   "run_id": "20260926-MSS-v7.0.0-R1",
   "mss_version": "v7.0.0",
   "execution_start_kst": "2026-09-26T12:44:28.981462+09:00",
-  "execution_status_ko": "검증중",
+  "execution_status_ko": "완료",
   "time_budget_value_ko": "미설정",
   "stage_commits": {
     "scoring_initial": {
@@ -72,5 +72,16 @@
     }
   ],
   "post_final_correction": false,
-  "exception_reentry": false
+  "exception_reentry": false,
+  "execution_end_kst": "2026-09-26T12:57:12.574295+09:00",
+  "elapsed_seconds": 763.593,
+  "elapsed_ko": "12분 43.6초",
+  "forced_consistency_tests": {
+    "passed": 24,
+    "failed": 0,
+    "total": 24,
+    "status_ko": "통과"
+  },
+  "structural_problem_ko": "아니오",
+  "stop_reason_ko": "정상 압축경로 및 강제 자가검증 완료"
 }
