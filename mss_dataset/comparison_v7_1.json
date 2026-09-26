@@ -1,0 +1,17 @@
+{
+  "schema": "mss_run_comparison_v7_1",
+  "current_run": "20260926-MSS-v7.1.0-R1",
+  "previous_run": "20260926-MSS-v7.0.0-R1",
+  "previous_selected": [
+    "NVDA",
+    "103590",
+    "CSCO"
+  ],
+  "current_selected": [
+    "222800",
+    "096770"
+  ],
+  "overlap": [],
+  "comparison_used_in_current_scoring": false,
+  "note_ko": "현재 후보와 상태를 모두 확정한 후 감사용으로만 비교"
+}
