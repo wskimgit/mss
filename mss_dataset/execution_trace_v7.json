@@ -1,0 +1,76 @@
+{
+  "schema": "mss_execution_trace_v7",
+  "run_id": "20260926-MSS-v7.0.0-R1",
+  "mss_version": "v7.0.0",
+  "execution_start_kst": "2026-09-26T12:44:28.981462+09:00",
+  "execution_status_ko": "검증중",
+  "time_budget_value_ko": "미설정",
+  "stage_commits": {
+    "scoring_initial": {
+      "commit": "a9cc3c9a6c7eb0ee717d1a7765569b1e440d635e",
+      "created_at_utc": "2026-09-26T03:46:44Z"
+    },
+    "stage1": {
+      "commit": "9c307651321c714fcf0dd655856a874577d48d30",
+      "created_at_utc": "2026-09-26T03:46:47Z"
+    },
+    "stage2": {
+      "commit": "b34b4ec7de20bd18a0bd6c173cd22b167a48cd7f",
+      "created_at_utc": "2026-09-26T03:46:52Z"
+    },
+    "stage3": {
+      "commit": "608e6a9e37800eaf3e9cfff91bde85c75f11eba1",
+      "created_at_utc": "2026-09-26T03:48:58Z"
+    },
+    "stage4": {
+      "commit": "6b2a44786a7d63e4c744df86c0cd21accd3adfc4",
+      "created_at_utc": "2026-09-26T03:51:53Z"
+    }
+  },
+  "hashes": {
+    "raw_kr": "675b138e4b1091d9664d0d6469ae5d12385f2041",
+    "raw_us": "99e82482136b92dc8ec59bcd5a0f85f17ca2c596",
+    "scoring_manifest": "cf86aca4f991b1acf90df546aa74e6211c05f550",
+    "stage1_output": "5666d5ebd9e4f75b7faa95a3625a7f47751274f5",
+    "stage2_output": "2b3436c491dadf0869b8ae01a3a5dd9a792ed3ec",
+    "stage3_output": "4ada5378fdf7a33ae3f580771126d07969351f52",
+    "stage4_output": "adf490554431a929209d75523d28fe039784336a"
+  },
+  "lineage": [
+    {
+      "stage": "1단계",
+      "input": [
+        "675b138e4b1091d9664d0d6469ae5d12385f2041",
+        "99e82482136b92dc8ec59bcd5a0f85f17ca2c596"
+      ],
+      "output": "5666d5ebd9e4f75b7faa95a3625a7f47751274f5",
+      "method_version": "MSS7-S1-1.0.0"
+    },
+    {
+      "stage": "2단계",
+      "input": [
+        "5666d5ebd9e4f75b7faa95a3625a7f47751274f5"
+      ],
+      "output": "2b3436c491dadf0869b8ae01a3a5dd9a792ed3ec",
+      "method_version": "MSS7-S2-KR-1.0.0 / MSS7-S2-US-1.0.0"
+    },
+    {
+      "stage": "3단계",
+      "input": [
+        "2b3436c491dadf0869b8ae01a3a5dd9a792ed3ec"
+      ],
+      "output": "4ada5378fdf7a33ae3f580771126d07969351f52",
+      "method_version": "MSS7-S3-KR-1.0.0 / MSS7-S3-US-1.0.0"
+    },
+    {
+      "stage": "4단계",
+      "input": [
+        "4ada5378fdf7a33ae3f580771126d07969351f52"
+      ],
+      "output": "adf490554431a929209d75523d28fe039784336a",
+      "method_version": "MSS7-S4-1.0.0"
+    }
+  ],
+  "post_final_correction": false,
+  "exception_reentry": false
+}
