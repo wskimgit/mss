@@ -1,44 +1,56 @@
 {
-  "schema": "mss_run_manifest_v6_2_1",
-  "run_id": "20260926-MSS-v6.2.1-R3",
-  "mss_version": "v6.2.1",
+  "schema": "mss_run_manifest_v7",
+  "run_id": "20260926-MSS-v7.0.0-R1",
+  "mss_version": "v7.0.0",
   "execution_date": "2026-09-26",
-  "current_master": "master/MSS_MASTER_v6.2.1_FROZEN_CURRENT.md",
+  "current_master": "master/MSS_MASTER_v7.0.0_FROZEN_CURRENT.md",
   "market_dates": {
     "KR": "2026-09-23",
     "US": "2026-09-25"
   },
+  "bulk_data_dates": {
+    "KR": "2026-09-23",
+    "US": "2026-09-24"
+  },
+  "freshness_ko": {
+    "KR": "최신",
+    "US": "하루 지연"
+  },
   "previous_recommendations_as_seed": false,
   "prior_rank_reused": false,
   "current_run_scoring_rebuilt": true,
+  "exception_reentry": false,
   "display_language": "KOREAN",
+  "scoring_manifest": "mss_dataset/scoring_manifest_v7.json",
   "selected_now": [
     "NVDA",
-    "LLY",
-    "000150"
+    "103590",
+    "CSCO"
   ],
   "stabilizing": [
-    "GOOGL",
-    "AMZN",
-    "036930",
-    "001820"
+    "PLTR",
+    "HPE"
   ],
   "wait": [
-    "AMD",
-    "MU",
-    "222800"
+    "131290",
+    "003490",
+    "BAC",
+    "TSLA",
+    "010170"
   ],
-  "coverage_ko": "충분",
+  "coverage_ko": "부분",
   "overall_confidence_ko": "중상",
-  "time_budget_stop_ko": "예",
-  "prompt_self_validation_ko": "통과_구조변경없음",
-  "data_correction_ko": "엔비디아·일라이릴리·아마존 가격기준을 재교차검증하여 실행자산 정정",
+  "time_budget_value_ko": "미설정",
+  "time_budget_stop_ko": "아니오",
+  "stop_reason_ko": "정상 압축경로 완료",
+  "prompt_self_validation_ko": "검증중",
+  "structural_problem_ko": "검증중",
   "mandatory_conclusion_block": [
     "MSS 한줄 결론",
     "│ 최우선: 엔비디아(NVDA)",
-    "│ 다음 후보: 일라이릴리(LLY), 두산",
+    "│ 다음 후보: 일진전기, 시스코(CSCO)",
     "│ 신뢰도: 중상",
-    "│ 핵심: 최신 열린시장 재평가와 가격 재교차검증에서도 엔비디아가 실적 성장·인공지능 수요·가격위치의 균형에서 가장 우수했고, 일라이릴리와 두산이 뒤를 이었습니다."
+    "│ 핵심: 미국 전체시장 원자료는 하루 지연됐지만 단계 계보와 최신 가격 검증을 통과한 후보 중 엔비디아가 성장성과 가격위치의 균형에서 가장 앞섰고, 일진전기와 시스코가 실적·수주 지속성으로 뒤를 이었습니다."
   ],
-  "execution_status_ko": "완료"
+  "execution_status_ko": "검증중"
 }
