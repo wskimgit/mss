@@ -25,7 +25,25 @@
     "failed": 0,
     "total": 180
   },
-  "runtime_status": "V7.1_EXECUTION_PENDING",
+  "runtime_status": "V7.1_RUNTIME_CURRENT",
   "display_language": "KOREAN",
-  "pointer_rule": "current.json is the sole CURRENT authority."
+  "pointer_rule": "current.json is the sole CURRENT authority.",
+  "runtime_run_id": "20260926-MSS-v7.1.0-R1",
+  "runtime_execution_status": "COMPLETE",
+  "runtime_manifest": "mss_dataset/run_manifest.json",
+  "evidence_manifest": "mss_dataset/evidence_manifest_v7_1.json",
+  "execution_trace": "mss_dataset/execution_trace_v7_1.json",
+  "runtime_validation": {
+    "passed": 20,
+    "failed": 0,
+    "total": 20,
+    "status": "PASS",
+    "structural_problem": "NO"
+  },
+  "coverage": "PARTIAL_US_BULK_ONE_TRADING_DAY_STALE",
+  "reproducibility": {
+    "replay_A_sha": "4049c986f4975dc0be4e5f29ba7f7e13b2715956",
+    "replay_B_sha": "4049c986f4975dc0be4e5f29ba7f7e13b2715956",
+    "match": true
+  }
 }
