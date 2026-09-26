@@ -1,0 +1,34 @@
+{
+  "schema": "mss_master_regression_v6_2",
+  "version": "v6.2.0",
+  "parent_version": "v6.1.1",
+  "date": "2026-09-26",
+  "change_type": "MINOR",
+  "frozen_master_path": "master/MSS_MASTER_v6.2.0_FROZEN_CURRENT.md",
+  "frozen_master_git_blob_sha": "525851c0380039a68966e61e3eda8f177ae42942",
+  "regression": {
+    "passed": 86,
+    "failed": 0,
+    "total": 86,
+    "status": "PASS"
+  },
+  "structural_dry_run": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "status": "PASS"
+  },
+  "fresh_discovery_contract": {
+    "previous_recommendations_seed_current_run": false,
+    "previous_rank_score_reused": false,
+    "raw_market_assets_may_be_reused_if_fresh": true,
+    "every_symbol_must_requalify": true,
+    "new_symbols_may_displace_all_previous": true,
+    "prior_recommendations_comparison_only_after_current_selection": true,
+    "anchoring_bias_review_required": true
+  },
+  "ai_final_approval": "APPROVED",
+  "auto_freeze": "COMPLETE",
+  "runtime_execution_after_freeze": "NOT_RUN",
+  "status": "REGRESSION_PASS"
+}
