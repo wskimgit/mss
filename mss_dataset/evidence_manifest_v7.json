@@ -105,7 +105,20 @@
     "stage3_distinct_scoring": true
   },
   "prompt_self_validation": {
-    "status_ko": "검증중",
-    "structural_problem_ko": "검증중"
+    "status_ko": "통과",
+    "forced_consistency_tests": {
+      "passed": 24,
+      "failed": 0,
+      "total": 24
+    },
+    "structural_problem_ko": "아니오",
+    "lineage_ko": "통과",
+    "freshness_honesty_ko": "통과",
+    "artifact_consistency_ko": "통과",
+    "scoring_reproducibility_ko": "통과",
+    "post_final_correction_ko": "없음",
+    "exception_reentry_ko": "없음",
+    "rule_change_ko": "아니오",
+    "version_action_ko": "v7.0.0 동결·현재 유지"
   }
 }
