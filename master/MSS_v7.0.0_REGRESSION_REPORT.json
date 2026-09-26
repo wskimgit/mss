@@ -1,0 +1,72 @@
+{
+  "schema": "mss_master_regression_v7_0_0",
+  "version": "v7.0.0",
+  "parent_version": "v6.2.1",
+  "date": "2026-09-26",
+  "change_type": "MAJOR",
+  "frozen_master_path": "master/MSS_MASTER_v7.0.0_FROZEN_CURRENT.md",
+  "frozen_master_git_blob_sha": "b2567c2659a7c672a9b546f3ddd81240f703f428",
+  "inherited_regression": {
+    "passed": 94,
+    "failed": 0,
+    "total": 94,
+    "status": "PASS"
+  },
+  "new_regression": {
+    "passed": 46,
+    "failed": 0,
+    "total": 46,
+    "status": "PASS"
+  },
+  "regression": {
+    "passed": 140,
+    "failed": 0,
+    "total": 140,
+    "status": "PASS"
+  },
+  "structural_dry_run": {
+    "passed": 14,
+    "failed": 0,
+    "total": 14,
+    "status": "PASS"
+  },
+  "validator_behavior_on_v6_2_1_R3": {
+    "structural_problem": "YES",
+    "detected_violations": 10,
+    "violations": [
+      "2단계 후보가 1단계 결과 밖에서 재등장",
+      "4단계 후보 두산이 3단계에 없음",
+      "미국 전체시장 원자료 1거래일 지연",
+      "아마존 신뢰도 실행자산 불일치",
+      "점수식 버전 미기록",
+      "가중치·벌점 미기록",
+      "단계별 입력·출력 해시 미기록",
+      "시작·종료·실제소요시간 미기록",
+      "시간제한 값·중단이유 미기록",
+      "사후 가격정정 후 영향단계 재실행 증거 없음"
+    ],
+    "copied_score_check": {
+      "l3_rows": 60,
+      "same_as_l2_score": 60,
+      "ratio": 1,
+      "result": "3단계 미실행으로 판정"
+    }
+  },
+  "major_changes": [
+    "단계 부분집합 계보 강제",
+    "생성형 인공지능 예외 재진입 기록과 재실행",
+    "단계별 계산 차별성 강제",
+    "최신성 등급과 전체시장 지연 공개",
+    "최종후보 최신가격 사전검증",
+    "실행자산 상호일치 강제",
+    "점수식·가중치·벌점·해시 재현성",
+    "기업행위 이상치 검증",
+    "사후 정정 시 영향단계 재실행",
+    "실행시간·시간제한·중단이유 기록",
+    "자가검증 실패 시 정상완료 차단"
+  ],
+  "ai_final_approval": "APPROVED",
+  "auto_freeze": "COMPLETE",
+  "runtime_execution_after_freeze": "NOT_RUN",
+  "status": "REGRESSION_PASS"
+}
