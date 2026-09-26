@@ -1,0 +1,19 @@
+{
+  "schema": "mss_master_regression_v6_1_1",
+  "version": "v6.1.1",
+  "parent_version": "v6.1.0",
+  "date": "2026-09-26",
+  "change_type": "PATCH",
+  "frozen_master_path": "master/MSS_MASTER_v6.1.1_FROZEN_CURRENT.md",
+  "frozen_master_git_blob_sha": "fb47378d1ffa8c49d477e6f44fc53adba8beccf3",
+  "regression": {
+    "passed": 79,
+    "failed": 0,
+    "total": 79,
+    "status": "PASS"
+  },
+  "change": "Mandatory final conclusion is displayed as a five-line block: heading plus four line-broken fields.",
+  "ai_final_approval": "APPROVED",
+  "auto_freeze": "COMPLETE",
+  "status": "REGRESSION_PASS"
+}
