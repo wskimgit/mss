@@ -1,57 +1,37 @@
 {
-  "schema": "mss_source_manifest_v5",
-  "run_id": "20260926-MSS-v5.0.0-R1",
-  "mss_version": "v5.0.0",
-  "execution_time_kst": "2026-09-26",
+  "schema": "mss_source_manifest_v6",
+  "run_id": "20260926-MSS-v6.0.0-R1",
+  "mss_version": "v6.0.0",
+  "execution_date_kst": "2026-09-26",
   "markets": {
     "KR": {
       "LatestCompletedTradingDay": "2026-09-23",
       "DataBarDate": "2026-09-23",
-      "SourceFetchedAt": "reused-validated-2026-09-26",
-      "primary": {
-        "provider": "FinanceData/fdr_krx_data_cache",
-        "role": "PRIMARY_BULK",
-        "status": "REUSED_VALID"
-      },
-      "targeted": {
-        "providers": [
-          "Investing.com",
-          "Korean market/news sources"
-        ],
-        "status": "VALIDATED_LEVEL4"
-      },
-      "note": "KRX closed Sep24-25 for Chuseok; trading resumes Sep28."
+      "SourceFetchedAt": "2026-09-26 validation run",
+      "bulk": "FinanceData/fdr_krx_data_cache input asset",
+      "latest_context": [
+        "Yonhap Sep23 market close / institutional flows",
+        "Seoul Economic Daily Sep1-3 Samsung Electro-Mechanics AI-server MLCC/order/earnings reports",
+        "Seoul Economic Daily Sep5-8 Robotis results/humanoid expansion"
+      ],
+      "freshness": "CURRENT_LATEST_COMPLETED_SESSION_BECAUSE_KRX_CHUSEOK_CLOSED_SEP24_27"
     },
     "US": {
       "LatestCompletedTradingDay": "2026-09-25",
       "DataBarDate_bulk": "2026-09-24",
       "SourceFetchedAt_bulk": "2026-09-25T15:19:24Z",
-      "primary": {
-        "provider": "zyhe16/top-us-stock-tickers / Nasdaq screener snapshot",
-        "role": "PRIMARY_BULK",
-        "status": "ONE_DAY_STALE_PRICE_BAR"
-      },
-      "targeted": {
-        "providers": [
-          "Nasdaq Dorsey Wright",
-          "Reuters",
-          "Visa IR",
-          "StatMuse",
-          "StockAnalysis/MarketBeat/FinanceCharts"
-        ],
-        "status": "SEP25_TARGETED_CONTEXT"
-      },
-      "note": "Broad universe snapshot price bar is Sep24; Sep25 validation is targeted for Level4. No READY promotion uses an unverified Sep25 completed bar."
+      "targeted_context_date": "2026-09-25",
+      "bulk": "Nasdaq screener snapshot input asset",
+      "latest_context": [
+        "Reuters Sep21-22 AI-market leadership",
+        "Arista Q2 2026 earnings release / Reuters Aug4",
+        "Visa Q3 2026 earnings / Sep product updates / Sep25 accessible quote",
+        "StatMuse Sep25 accessible quotes for ANET/AMD/MU/GOOGL",
+        "Micron IR Sep30 earnings-event notice"
+      ],
+      "freshness": "BULK_ONE_DAY_STALE_PRICE_BAR_WITH_TARGETED_SEP25_L4_REFRESH"
     }
   },
-  "alarm_data": {
-    "daily_stc": "NOT_COMPUTED_FOR_FINAL_CANDIDATES",
-    "h60_stc": "DATA_HOLD_SOURCE_NOT_AVAILABLE_IN_CURRENT_EXECUTION",
-    "policy": "Do not fabricate or map proxy values into Alarm states."
-  },
-  "normalization": {
-    "KR": "Code",
-    "US": "symbol",
-    "fabrication": 0
-  }
+  "date_semantics": "SourceFetchedAt != DataBarDate != LatestCompletedTradingDay unless independently verified",
+  "fabrication": 0
 }
