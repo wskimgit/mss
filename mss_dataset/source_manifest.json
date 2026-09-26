@@ -1,6 +1,6 @@
 {
   "schema": "mss_source_manifest_v6_2_1",
-  "run_id": "20260926-MSS-v6.2.1-R1",
+  "run_id": "20260926-MSS-v6.2.1-R2",
   "mss_version": "v6.2.1",
   "execution_date": "2026-09-26",
   "markets": {
@@ -10,9 +10,8 @@
       "freshness_ko": "최신 완료거래일",
       "bulk_source": "FinanceData/fdr_krx_data_cache raw universe",
       "targeted_sources": [
-        "매일경제 시장자료",
-        "한국경제 시장자료",
-        "최근 기업·산업 기사"
+        "Investing.com 두산 9월23일 종가",
+        "한국경제·매일경제 두산 동박적층판 투자"
       ]
     },
     "US": {
@@ -24,7 +23,7 @@
         "FinanceCharts",
         "NVIDIA 투자자관계",
         "Eli Lilly 투자자관계",
-        "Reuters"
+        "Micron 투자자관계"
       ]
     }
   },
