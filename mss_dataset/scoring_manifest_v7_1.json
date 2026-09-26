@@ -1,0 +1,141 @@
+{
+  "schema": "mss_scoring_manifest_v7_1",
+  "version": "MSS7.1-SCORE-1.0.0",
+  "empirical_parameters": true,
+  "empirical_note_ko": "가중치와 일부 임계값은 경험값이며 최적값으로 간주하지 않는다.",
+  "stage1": {
+    "KR": {
+      "version": "MSS7.1-S1-KR-1.0.0",
+      "raw_fields": [
+        "market_cap",
+        "amount",
+        "r1w",
+        "r1m",
+        "r3m",
+        "r6m"
+      ],
+      "normalization": "각 유효 필드의 현재시장 횡단면 백분위 0~1",
+      "weights": {
+        "market_cap": 0.25,
+        "amount": 0.25,
+        "r1w": 0.15,
+        "r1m": 0.15,
+        "r3m": 0.1,
+        "r6m": 0.1
+      },
+      "anomaly_suspicion_thresholds": {
+        "r1w_abs_gt": 40,
+        "r1m_abs_gt": 90,
+        "r3m_abs_gt": 180,
+        "r6m_abs_gt": 350,
+        "pct_abs_gt": 20
+      },
+      "anomaly_handling": "의심된 해당 수익률 필드만 백분위 계산에서 제외하며 0으로 치환하지 않음",
+      "formula": "유효 백분위×가중치의 합 / 유효 가중치 합"
+    },
+    "US": {
+      "version": "MSS7.1-S1-US-1.0.0",
+      "raw_fields": [
+        "market_cap",
+        "price",
+        "volume",
+        "pct",
+        "is_sp500"
+      ],
+      "derived_fields": {
+        "dollar_volume": "price*volume"
+      },
+      "normalization": "market_cap,dollar_volume,pct의 현재시장 횡단면 백분위 0~1",
+      "weights": {
+        "market_cap": 0.45,
+        "dollar_volume": 0.4,
+        "pct": 0.1,
+        "is_sp500": 0.05
+      },
+      "formula": "0.45*시총백분위+0.40*달러거래대금백분위+0.10*당일등락백분위+0.05*대형지수포함",
+      "limitation_ko": "1주·1개월·3개월·6개월 수익률 부재로 추세점수가 아니라 광역 선별점수임"
+    }
+  },
+  "stage2": {
+    "KR": {
+      "version": "MSS7.1-S2-KR-1.0.0",
+      "raw_fields": [
+        "stage1_score",
+        "r1w",
+        "r1m",
+        "r3m",
+        "r6m",
+        "amount",
+        "sector"
+      ],
+      "derived_fields": {
+        "persistence": "유효 수익률 기간 중 양수 기간 비율",
+        "amount_percentile": "1단계 후보 내 거래대금 백분위",
+        "sector_neutral_percentile": "같은 업종 내 1단계점수 백분위",
+        "balance": "1개월>0, 3개월>-10, 6개월>0 이면 1 아니면 0"
+      },
+      "weights": {
+        "stage1": 0.45,
+        "persistence": 0.2,
+        "amount_percentile": 0.15,
+        "sector_neutral_percentile": 0.1,
+        "balance": 0.1
+      },
+      "formula": "0.45*S1+0.20*지속성+0.15*거래대금백분위+0.10*업종내상대순위+0.10*균형"
+    },
+    "US": {
+      "version": "MSS7.1-S2-US-1.0.0",
+      "raw_fields": [
+        "stage1_score",
+        "price",
+        "volume",
+        "pct",
+        "sector"
+      ],
+      "derived_fields": {
+        "dollar_volume_percentile": "1단계 후보 내 price*volume 백분위",
+        "sector_neutral_percentile": "같은 업종 내 1단계점수 백분위",
+        "daily_stability": "|pct|<=1.5:1, <=3:0.8, <=5:0.5, <=8:0.2, 그외:0"
+      },
+      "weights": {
+        "stage1": 0.5,
+        "dollar_volume_percentile": 0.2,
+        "sector_neutral_percentile": 0.2,
+        "daily_stability": 0.1
+      },
+      "formula": "0.50*S1+0.20*달러거래대금백분위+0.20*업종내상대순위+0.10*당일안정성",
+      "limitation_ko": "광역 다기간 자료 부족"
+    }
+  },
+  "sector_rule_ko": "업종 주도력 가산점은 사용하지 않음. 업종내 상대순위는 업종 자기강화가 아니라 후보의 업종내 위치만 측정.",
+  "stage3_entry": {
+    "KR": [
+      "096770",
+      "010170",
+      "222800",
+      "036930",
+      "003490",
+      "036540",
+      "092870",
+      "103590",
+      "046970",
+      "000500"
+    ],
+    "US": [
+      "GOOGL",
+      "MU",
+      "GOOG",
+      "AMD",
+      "JPM",
+      "LLY",
+      "AMZN",
+      "META",
+      "CSCO",
+      "XOM"
+    ],
+    "rule": "각 시장 2단계 점수 상위 10개를 자료조회 전에 고정; 목표값이며 자료부족 시 조용한 대체 금지"
+  },
+  "replay_precheck": {
+    "independent_serialization_equal": true
+  }
+}
