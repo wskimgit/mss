@@ -1,52 +1,45 @@
 {
-  "schema": "mss_run_manifest_v6_1",
-  "run_id": "20260926-MSS-v6.1.0-R1",
-  "mss_version": "v6.1.0",
+  "schema": "mss_run_manifest_v6_2",
+  "run_id": "20260926-MSS-v6.2.0-R1",
+  "mss_version": "v6.2.0",
   "execution_date": "2026-09-26",
-  "current_master": "master/MSS_MASTER_v6.1.0_FROZEN_CURRENT.md",
+  "current_master": "master/MSS_MASTER_v6.2.0_FROZEN_CURRENT.md",
   "market_dates": {
     "KR": "2026-09-23",
     "US": "2026-09-25"
   },
-  "execution_path": "CURRENT RESOLUTION → FRESHNESS VALIDATION → REUSE VALID BULK INPUT → 300→100→30→10 → DIRECT EXECUTABLE EVIDENCE → LATEST CONTEXT/RISK → INDEPENDENT AI REVIEW → AI FINAL → PROMPT SELF-VALIDATION → ONE-LINE CONCLUSION",
-  "reused_input_assets": [
-    "universe_kr.csv",
-    "universe_us.csv",
-    "level1_market.csv"
-  ],
-  "generated_assets": [
-    "level2_evidence_v6_1.csv",
-    "level3_evidence_v6_1.csv",
-    "level4_evidence_v6_1.csv",
-    "evidence_manifest_v6_1.json",
-    "source_manifest.json",
-    "scan_counter.json",
-    "run_manifest.json"
-  ],
+  "execution_path": "CURRENT → FRESHNESS CHECK → RAW UNIVERSE REUSE ONLY → NEW CURRENT-RUN SCORING → 300→100→30→10 → TARGETED CURRENT EVIDENCE → AI INDEPENDENT REVIEW → AI FINAL → ONLY THEN PREVIOUS-RUN COMPARISON → PROMPT SELF-VALIDATION",
+  "prior_recommendations_as_seed": false,
+  "prior_rank_reused": false,
+  "current_run_scoring_rebuilt": true,
   "selected_now": [
-    "ANET",
-    "009150",
-    "V"
+    "NVDA",
+    "LLY",
+    "000150"
   ],
   "stabilizing": [
-    "000660",
-    "005930",
+    "036930",
+    "001820",
     "GOOGL",
-    "CDNS",
-    "108490"
+    "V"
   ],
   "wait": [
     "AMD",
     "MU",
     "META",
-    "INTC",
-    "222800",
-    "067310"
+    "095610",
+    "222800"
   ],
   "coverage": "SUFFICIENT",
-  "overall_confidence": "MEDIUM_HIGH",
+  "overall_confidence": "HIGH_MEDIUM",
   "time_budget_stop": "YES",
   "prompt_self_validation": "PASS_NO_STRUCTURAL_CHANGE",
-  "mandatory_one_line_conclusion": "MSS 한줄 결론 │ 최우선: ANET │ 다음 후보: 삼성전기, Visa │ Confidence: MEDIUM-HIGH │ 핵심: ANET이 추세·실적·가격위치의 균형이 가장 우수하고, 삼성전기와 Visa가 각각 AI부품 성장성과 낮은 추격부담으로 뒤를 잇습니다.",
+  "mandatory_conclusion_block": [
+    "MSS 한줄 결론",
+    "│ 최우선: NVDA",
+    "│ 다음 후보: LLY, 두산",
+    "│ Confidence: HIGH-MEDIUM",
+    "│ 핵심: 이전 추천을 모두 초기화한 새 열린 스캔에서 NVDA가 실적 성장·AI 수요·가격위치의 균형이 가장 우수했고, LLY와 두산이 각각 실적 가속과 AI 소재 성장성으로 뒤를 이었습니다."
+  ],
   "execution_status": "COMPLETE"
 }
