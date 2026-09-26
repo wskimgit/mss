@@ -1,0 +1,201 @@
+market,symbol,name,level1_score,screen_evidence,status
+KR,222800,심텍,0.936787,r1m=42.1103;r3m=27.0178;r6m=163.2042;liquidity=86694553100,L2_PASS
+KR,010170,대한광통신,0.910081,r1m=34.6008;r3m=23.1733;r6m=114.5455;liquidity=158123523360,L2_PASS
+KR,098120,마이크로컨텍솔,0.907896,r1m=49.2921;r3m=136.7347;r6m=122.2222;liquidity=15588447250,L2_PASS
+KR,001820,삼화콘덴서,0.883218,r1m=58.9827;r3m=8.0147;r6m=170.0368;liquidity=92014605700,L2_PASS
+KR,010950,S-Oil,0.872798,r1m=10.1983;r3m=45.0140;r6m=43.5424;liquidity=58872144050,L2_PASS
+KR,003490,대한항공,0.864560,r1m=21.1538;r3m=15.1737;r6m=26.7606;liquidity=130982068100,L2_PASS
+KR,036930,주성엔지니어링,0.863113,r1m=26.2048;r3m=14.8575;r6m=170.6718;liquidity=180622863750,L2_PASS
+KR,119850,지엔씨에너지,0.861301,r1m=14.4898;r3m=181.6265;r6m=68.4685;liquidity=24956907000,L2_PASS
+KR,131290,티에스이,0.861172,r1m=17.7189;r3m=15.8317;r6m=149.5682;liquidity=20758374500,L2_PASS
+KR,161890,한국콜마,0.861115,r1m=2.5820;r3m=70.1389;r6m=87.9795;liquidity=40522592900,L2_PASS
+KR,066570,LG전자,0.859551,r1m=4.6046;r3m=2.2005;r6m=82.8521;liquidity=114955326500,L2_PASS
+KR,006340,대원전선,0.837749,r1m=4.7360;r3m=20.6619;r6m=146.1679;liquidity=21037840590,L2_PASS
+KR,028050,삼성E&A,0.834550,r1m=10.1563;r3m=12.2867;r6m=46.0059;liquidity=110184302725,L2_PASS
+KR,024840,KBI메탈,0.833950,r1m=22.1154;r3m=56.7901;r6m=203.8278;liquidity=12968095335,L2_PASS
+KR,059090,미코,0.832650,r1m=30.3468;r3m=22.6210;r6m=59.1390;liquidity=8063434975,L2_PASS
+KR,425420,티에프이,0.830088,r1m=53.0952;r3m=48.1567;r6m=5.2373;liquidity=4342503050,L2_PASS
+KR,105560,KB금융,0.828738,r1m=6.1925;r3m=14.0975;r6m=17.9033;liquidity=118050253200,L2_PASS
+KR,055550,신한지주,0.826925,r1m=5.8083;r3m=14.2111;r6m=21.4444;liquidity=98782914050,L2_PASS
+KR,086790,하나금융지주,0.825356,r1m=3.4188;r3m=16.5499;r6m=24.9765;liquidity=86391731820,L2_PASS
+KR,108490,로보티즈,0.825346,r1m=21.6162;r3m=17.8082;r6m=16.2162;liquidity=64227738500,L2_PASS
+KR,252990,샘씨엔에스,0.824140,r1m=34.5086;r3m=45.5357;r6m=78.2306;liquidity=11511043865,L2_PASS
+KR,031980,피에스케이홀딩스,0.822790,r1m=48.0944;r3m=32.7909;r6m=60.7882;liquidity=15858437050,L2_PASS
+KR,316140,우리금융지주,0.822776,r1m=10.6416;r3m=20.8547;r6m=9.4427;liquidity=49731421325,L2_PASS
+KR,006400,삼성SDI,0.820418,r1m=1.1650;r3m=6.5440;r6m=31.0692;liquidity=195422763000,L2_PASS
+KR,443060,HD현대마린솔루션,0.818936,r1m=15.7385;r3m=9.1324;r6m=32.9255;liquidity=13867663450,L2_PASS
+KR,138040,메리츠금융지주,0.818838,r1m=8.8388;r3m=21.3527;r6m=18.3789;liquidity=18766875350,L2_PASS
+KR,180640,한진칼,0.816164,r1m=15.3086;r3m=22.8947;r6m=15.4988;liquidity=9869157150,L2_PASS
+KR,403870,HPSP,0.814013,r1m=26.2799;r3m=9.6838;r6m=13.8462;liquidity=77548253400,L2_PASS
+KR,000810,삼성화재,0.812050,r1m=1.8868;r3m=1.8868;r6m=34.8595;liquidity=38949167000,L2_PASS
+KR,090430,아모레퍼시픽,0.811663,r1m=1.8585;r3m=45.4082;r6m=5.0111;liquidity=20745686600,L2_PASS
+KR,005830,DB손해보험,0.811482,r1m=2.2715;r3m=34.4501;r6m=0.4899;liquidity=30306492000,L2_PASS
+KR,033780,KT&G,0.809150,r1m=0.6351;r3m=3.3808;r6m=10.5964;liquidity=46655668650,L2_PASS
+KR,096530,씨젠,0.794625,r1m=5.7543;r3m=26.1596;r6m=52.8090;liquidity=5598570650,L2_PASS
+KR,088350,한화생명,0.792175,r1m=7.6336;r3m=21.0300;r6m=16.4087;liquidity=11673718590,L2_PASS
+KR,089860,롯데렌탈,0.790172,r1m=7.4675;r3m=79.5660;r6m=56.8720;liquidity=1289523325,L2_PASS
+KR,452260,한화갤러리아,0.787114,r1m=42.1594;r3m=30.4245;r6m=8.0078;liquidity=4369612785,L2_PASS
+KR,060370,LS마린솔루션,0.785636,r1m=9.9673;r3m=32.4803;r6m=11.4238;liquidity=5527330800,L2_PASS
+KR,007340,DN오토모티브,0.785633,r1m=0.2092;r3m=25.8870;r6m=22.0382;liquidity=6331780225,L2_PASS
+KR,332570,PS일렉트로닉스,0.784720,r1m=1.8454;r3m=48.1544;r6m=63.8219;liquidity=11456121240,L2_PASS
+KR,033790,피노,0.774459,r1m=26.4559;r3m=7.1932;r6m=54.3147;liquidity=7039264685,L2_PASS
+KR,020560,아시아나항공,0.772044,r1m=18.2461;r3m=15.1515;r6m=19.4286;liquidity=2326716815,L2_PASS
+KR,029460,케이씨,0.768144,r1m=23.8571;r3m=50.7826;r6m=39.6135;liquidity=1531668200,L2_PASS
+KR,139130,iM금융지주,0.763078,r1m=4.0912;r3m=11.8016;r6m=6.9028;liquidity=7279235655,L2_PASS
+KR,203650,드림시큐리티,0.761265,r1m=38.1188;r3m=9.6267;r6m=72.9696;liquidity=46055512140,L2_PASS
+KR,201490,미투온,0.756308,r1m=47.3161;r3m=87.1212;r6m=21.0784;liquidity=71386181320,L2_PASS
+KR,452430,사피엔반도체,0.745008,r1m=54.2146;r3m=27.5753;r6m=21.0526;liquidity=1906662075,L2_PASS
+KR,294870,IPARK현대산업개발,0.744860,r1m=8.2192;r3m=24.4748;r6m=8.4668;liquidity=2451310125,L2_PASS
+KR,041960,코미팜,0.743671,r1m=0.5102;r3m=21.3054;r6m=15.0701;liquidity=5086242855,L2_PASS
+KR,003690,코리안리,0.742441,r1m=2.0167;r3m=18.2111;r6m=10.7170;liquidity=2688224195,L2_PASS
+KR,013030,하이록코리아,0.732559,r1m=21.8094;r3m=19.4929;r6m=4.1436;liquidity=1464058525,L2_PASS
+KR,045100,한양이엔지,0.732396,r1m=11.6319;r3m=15.6475;r6m=1.5798;liquidity=1629391375,L2_PASS
+KR,068930,디지털대성,0.729653,r1m=15.2461;r3m=37.1429;r6m=7.2626;liquidity=3344629655,L2_PASS
+KR,456010,아이씨티케이,0.841863,r1m=39.3342;r3m=16.4948;r6m=63.0592;liquidity=35347643925,L2_PASS
+KR,017900,광전자,0.834541,r1m=31.0345;r3m=33.1536;r6m=277.8203;liquidity=30374224915,L2_PASS
+KR,077360,덕산하이메탈,0.827513,r1m=39.0476;r3m=13.2759;r6m=17.5313;liquidity=9385748275,L2_PASS
+KR,096770,SK이노베이션,0.826626,r1m=14.6810;r3m=51.6260;r6m=35.5132;liquidity=148676435650,L2_PASS
+KR,000880,한화,0.820809,r1m=55.1313;r3m=25.2408;r6m=13.4380;liquidity=8086377750,L2_PASS
+KR,417840,저스템,0.806402,r1m=48.0069;r3m=39.2013;r6m=152.6627;liquidity=33170428755,L2_PASS
+KR,021240,코웨이,0.797190,r1m=2.3590;r3m=15.6431;r6m=38.0360;liquidity=23512651150,L2_PASS
+KR,229640,LS에코에너지,0.796665,r1m=49.1841;r3m=17.4312;r6m=42.3804;liquidity=40717518950,L2_PASS
+KR,069540,빛과전자,0.792944,r1m=43.3155;r3m=56.7251;r6m=53.4351;liquidity=46349179042,L2_PASS
+KR,204270,제이앤티씨,0.790977,r1m=28.1637;r3m=6.0134;r6m=39.1813;liquidity=25593965575,L2_PASS
+KR,103590,일진전기,0.788069,r1m=23.6006;r3m=10.2564;r6m=5.6921;liquidity=80921351650,L2_PASS
+KR,080580,오킨스전자,0.783510,r1m=53.6797;r3m=68.7033;r6m=36.3138;liquidity=26204884500,L2_PASS
+KR,053800,안랩,0.782467,r1m=30.5800;r3m=41.5238;r6m=20.4214;liquidity=9493761250,L2_PASS
+KR,175330,JB금융지주,0.776865,r1m=10.6422;r3m=26.6807;r6m=4.1451;liquidity=8850924650,L2_PASS
+KR,064760,티씨케이,0.772570,r1m=25.7143;r3m=10.8527;r6m=24.3478;liquidity=13745289250,L2_PASS
+KR,219130,타이거일렉,0.755729,r1m=27.6461;r3m=28.6624;r6m=146.7176;liquidity=2999571350,L2_PASS
+KR,084370,유진테크,0.755342,r1m=20.5601;r3m=1.1125;r6m=27.3152;liquidity=43001863900,L2_PASS
+KR,000370,한화손해보험,0.747958,r1m=6.8820;r3m=30.9811;r6m=12.7407;liquidity=5236850285,L2_PASS
+KR,086450,동국제약,0.742439,r1m=11.1400;r3m=17.3722;r6m=17.9558;liquidity=17668924925,L2_PASS
+KR,001210,금호전기,0.730965,r1m=13.1034;r3m=1868.0000;r6m=1147.1483;liquidity=13450415845,L2_PASS
+KR,036540,SFA반도체,0.928749,r1m=96.1039;r3m=71.8699;r6m=54.9853;liquidity=64581612360,L2_PASS
+KR,009150,삼성전기,0.884458,r1m=14.3399;r3m=-23.2688;r6m=244.8513;liquidity=743457672000,L2_PASS
+KR,064290,인텍플러스,0.875678,r1m=67.5841;r3m=33.8217;r6m=226.7740;liquidity=14628092200,L2_PASS
+KR,000990,DB하이텍,0.866737,r1m=51.5499;r3m=-13.3858;r6m=58.2734;liquidity=54022998350,L2_PASS
+KR,192650,드림텍,0.863047,r1m=79.0254;r3m=88.1960;r6m=18.6798;liquidity=7092574680,L2_PASS
+KR,000660,SK하이닉스,0.859517,r1m=11.4303;r3m=-27.8295;r6m=88.8438;liquidity=5480333530143,L2_PASS
+KR,000150,두산,0.847970,r1m=39.3548;r3m=-2.1359;r6m=31.3640;liquidity=118116220500,L2_PASS
+KR,232140,와이씨,0.843963,r1m=44.9644;r3m=9.8689;r6m=-29.4554;liquidity=25395537070,L2_PASS
+KR,437730,삼현,0.840827,r1m=61.4308;r3m=32.3980;r6m=0.5814;liquidity=21317535800,L2_PASS
+KR,001440,대한전선,0.836342,r1m=15.9176;r3m=-9.3704;r6m=6.9085;liquidity=94512213125,L2_PASS
+KR,062040,산일전기,0.830113,r1m=24.4700;r3m=-7.8475;r6m=34.4895;liquidity=25446226750,L2_PASS
+KR,005930,삼성전자,0.827747,r1m=11.0895;r3m=-16.1527;r6m=50.5008;liquidity=5926486634990,L2_PASS
+KR,039030,이오테크닉스,0.823766,r1m=24.0979;r3m=-1.0277;r6m=13.6954;liquidity=34260840000,L2_PASS
+KR,034730,SK,0.821714,r1m=11.2933;r3m=-14.1854;r6m=77.8748;liquidity=78403933000,L2_PASS
+KR,095340,ISC,0.819667,r1m=37.8080;r3m=11.5486;r6m=-10.9015;liquidity=24686123500,L2_PASS
+KR,028260,삼성물산,0.817743,r1m=0.6859;r3m=-23.7799;r6m=30.3730;liquidity=102096058500,L2_PASS
+KR,004710,한솔테크닉스,0.815414,r1m=46.0177;r3m=-15.8879;r6m=105.6075;liquidity=4753237480,L2_PASS
+KR,006260,LS,0.813301,r1m=11.4385;r3m=-9.0523;r6m=16.2749;liquidity=23411934750,L2_PASS
+KR,032830,삼성생명,0.812244,r1m=3.1524;r3m=-31.9861;r6m=32.6577;liquidity=65745880000,L2_PASS
+KR,298040,효성중공업,0.811822,r1m=3.7249;r3m=-13.6296;r6m=7.2195;liquidity=78971822000,L2_PASS
+KR,033640,네패스,0.808682,r1m=43.9750;r3m=-2.1277;r6m=49.6746;liquidity=4802065350,L2_PASS
+KR,046970,우리로,0.805107,r1m=84.8131;r3m=30.7438;r6m=72.8962;liquidity=95135681205,L2_PASS
+KR,058610,에스피지,0.800007,r1m=7.1277;r3m=25.5611;r6m=-11.5114;liquidity=36610953750,L2_PASS
+KR,003670,포스코퓨처엠,0.798200,r1m=5.2662;r3m=1.0107;r6m=-8.4012;liquidity=103101673800,L2_PASS
+KR,080220,제주반도체,0.797137,r1m=6.5934;r3m=-31.2666;r6m=83.2349;liquidity=70673564200,L2_PASS
+KR,420770,기가비스,0.795290,r1m=17.6864;r3m=-20.9884;r6m=75.8571;liquidity=13070939500,L2_PASS
+KR,024110,기업은행,0.792653,r1m=0.9901;r3m=1.2407;r6m=-11.8790;liquidity=30601138000,L2_PASS
+KR,098460,고영,0.789538,r1m=6.9725;r3m=-6.1192;r6m=5.6159;liquidity=21166620900,L2_PASS
+US,AMD,Advanced Micro Devices Inc. Common Stock,0.965786,bulk_pct=2.384;market_cap=1027251244929;volume=25319550,L2_PASS
+US,LLY,Eli Lilly and Company Common Stock,0.965746,bulk_pct=2.685;market_cap=1112580501553;volume=2418807,L2_PASS
+US,V,Visa Inc.,0.959686,bulk_pct=1.787;market_cap=657490187696;volume=4417589,L2_PASS
+US,GOOGL,Alphabet Inc. Class A Common Stock,0.959169,bulk_pct=1.341;market_cap=4187062800000;volume=23777396,L2_PASS
+US,TMO,Thermo Fisher Scientific Inc Common Stock,0.957804,bulk_pct=1.968;market_cap=250832861350;volume=2097970,L2_PASS
+US,GOOG,Alphabet Inc. Class C Capital Stock,0.956994,bulk_pct=1.203;market_cap=4146092300000;volume=15965035,L2_PASS
+US,DIS,Walt Disney Company (The) Common Stock,0.952971,bulk_pct=2.03;market_cap=182269069375;volume=7886127,L2_PASS
+US,VZ,Verizon Communications Inc. Common Stock,0.952879,bulk_pct=1.72;market_cap=196603962559;volume=21043704,L2_PASS
+US,VLO,Valero Energy Corporation Common Stock,0.952822,bulk_pct=1.868;market_cap=110235907718;volume=3726796,L2_PASS
+US,MU,Micron Technology Inc. Common Stock,0.951477,bulk_pct=0.807;market_cap=1220343181450;volume=22070294,L2_PASS
+US,MA,Mastercard Incorporated Common Stock,0.950855,bulk_pct=1.1;market_cap=495891706835;volume=2165628,L2_PASS
+US,UNH,UnitedHealth Group Incorporated Common Stock (DE),0.949855,bulk_pct=1.002;market_cap=336607043573;volume=4652207,L2_PASS
+US,HPE,Hewlett Packard Enterprise Company Common Stock,0.949677,bulk_pct=1.909;market_cap=84320562762;volume=21472929,L2_PASS
+US,DDOG,Datadog Inc. Class A Common Stock,0.949603,bulk_pct=2.159;market_cap=92253555166;volume=3489556,L2_PASS
+US,AXP,American Express Company Common Stock,0.949299,bulk_pct=1.225;market_cap=206415203555;volume=3955312,L2_PASS
+US,SNPS,Synopsys Inc. Common Stock,0.948945,bulk_pct=2.869;market_cap=81428327252;volume=1716358,L2_PASS
+US,CTAS,Cintas Corporation Common Stock,0.948177,bulk_pct=2.974;market_cap=78976474501;volume=3398787,L2_PASS
+US,WELL,Welltower Inc. Common Stock,0.947655,bulk_pct=1.627;market_cap=168373228003;volume=2751259,L2_PASS
+US,APH,Amphenol Corporation Common Stock,0.946004,bulk_pct=1.083;market_cap=204872531215;volume=11712129,L2_PASS
+US,DHR,Danaher Corporation Common Stock,0.945337,bulk_pct=0.997;market_cap=157307189304;volume=6196751,L2_PASS
+US,ANET,Arista Networks Inc. Common Stock,0.945106,bulk_pct=1.096;market_cap=259433910094;volume=3559074,L2_PASS
+US,XOM,ExxonMobil Holdings Corporation Common Stock,0.944841,bulk_pct=0.564;market_cap=666705405194;volume=12484958,L2_PASS
+US,CSCO,Cisco Systems Inc. Common Stock (DE),0.944208,bulk_pct=0.507;market_cap=421738517805;volume=32362244,L2_PASS
+US,JNJ,Johnson & Johnson Common Stock,0.943890,bulk_pct=0.561;market_cap=652311352236;volume=6323739,L2_PASS
+US,BKNG,Booking Holdings Inc. Common Stock,0.943805,bulk_pct=0.969;market_cap=118274804505;volume=9501590,L2_PASS
+US,ABNB,Airbnb Inc. Class A Common Stock,0.943743,bulk_pct=1.21;market_cap=90650164398;volume=8597733,L2_PASS
+US,PLTR,Palantir Technologies Inc. Class A Common Stock,0.942632,bulk_pct=0.417;market_cap=462611479713;volume=22675964,L2_PASS
+US,NFLX,Netflix Inc. Common Stock,0.942043,bulk_pct=0.504;market_cap=298637753563;volume=28224058,L2_PASS
+US,BLK,BlackRock Inc. Common Stock,0.941093,bulk_pct=1.184;market_cap=166244406074;volume=501393,L2_PASS
+US,PFE,Pfizer Inc. Common Stock,0.940458,bulk_pct=0.816;market_cap=161927726663;volume=34774778,L2_PASS
+US,PWR,Quanta Services Inc. Common Stock,0.940386,bulk_pct=1.355;market_cap=94806712787;volume=938055,L2_PASS
+US,COP,ConocoPhillips Common Stock,0.939797,bulk_pct=0.976;market_cap=155380989534;volume=5362096,L2_PASS
+US,JPM,JP Morgan Chase & Co. Common Stock,0.939757,bulk_pct=0.305;market_cap=899955518179;volume=6941751,L2_PASS
+US,DVN,Devon Energy Corporation Common Stock,0.939537,bulk_pct=1.79;market_cap=53790000000;volume=17590827,L2_PASS
+US,VRTX,Vertex Pharmaceuticals Incorporated Common Stock,0.937976,bulk_pct=1.17;market_cap=132402917479;volume=941060,L2_PASS
+US,HLT,Hilton Worldwide Holdings Inc. Common Stock,0.937425,bulk_pct=1.598;market_cap=70249510358;volume=1683408,L2_PASS
+US,GEV,GE Vernova Inc. Common Stock,0.936901,bulk_pct=0.338;market_cap=254359223198;volume=1683690,L2_PASS
+US,T,AT&T Inc.,0.936304,bulk_pct=0.593;market_cap=174393214793;volume=34217821,L2_PASS
+US,IQV,IQVIA Holdings Inc. Common Stock,0.936206,bulk_pct=2.673;market_cap=45268292000;volume=1893424,L2_PASS
+US,CRM,Salesforce Inc. Common Stock,0.935069,bulk_pct=0.269;market_cap=196055060000;volume=11073961,L2_PASS
+US,BMY,Bristol-Myers Squibb Company Common Stock,0.934518,bulk_pct=0.572;market_cap=125626951344;volume=14902838,L2_PASS
+US,MPC,Marathon Petroleum Corporation Common Stock,0.934151,bulk_pct=0.662;market_cap=109788441095;volume=2091003,L2_PASS
+US,AMZN,Amazon.com Inc. Common Stock,0.934130,bulk_pct=0.044;market_cap=2689890878585;volume=33040160,L2_PASS
+US,WFC,Wells Fargo & Company Common Stock,0.934024,bulk_pct=0.342;market_cap=248512265432;volume=12235786,L2_PASS
+US,FANG,Diamondback Energy Inc. Common Stock,0.932038,bulk_pct=1.81;market_cap=52927402961;volume=2306992,L2_PASS
+US,CVX,Chevron Corporation Common Stock,0.931886,bulk_pct=0.068;market_cap=406317362498;volume=9387794,L2_PASS
+US,WAT,Waters Corporation Common Stock,0.931699,bulk_pct=2.314;market_cap=42276162163;volume=1031521,L2_PASS
+US,BAC,Bank of America Corporation Common Stock,0.931690,bulk_pct=0.054;market_cap=391803690891;volume=40990268,L2_PASS
+US,OXY,Occidental Petroleum Corporation Common Stock,0.931024,bulk_pct=1.203;market_cap=58028949387;volume=9848599,L2_PASS
+US,PM,Philip Morris International Inc Common Stock,0.930170,bulk_pct=0.346;market_cap=298474473569;volume=3151332,L2_PASS
+US,C,Citigroup Inc. Common Stock,0.929498,bulk_pct=0.129;market_cap=221589399034;volume=8648713,L2_PASS
+US,DAL,Delta Air Lines Inc. Common Stock,0.929354,bulk_pct=1.235;market_cap=54424881963;volume=6256485,L2_PASS
+US,KR,Kroger Company (The) Common Stock,0.929332,bulk_pct=2.221;market_cap=34797486204;volume=8089118,L2_PASS
+US,KO,Coca-Cola Company (The) Common Stock,0.927303,bulk_pct=0.011;market_cap=379054588308;volume=13169076,L2_PASS
+US,XYZ,Block Inc. Class A Common Stock,0.927290,bulk_pct=2.758;market_cap=46105008300;volume=3654550,L2_PASS
+US,COIN,Coinbase Global Inc. Class A Common Stock,0.926943,bulk_pct=0.545;market_cap=52558953431;volume=7383844,L2_PASS
+US,SYY,Sysco Corporation Common Stock,0.926589,bulk_pct=1.361;market_cap=38462752532;volume=6855586,L2_PASS
+US,AZO,AutoZone Inc. Common Stock,0.926453,bulk_pct=0.647;market_cap=46719084671;volume=481887,L2_PASS
+US,PH,Parker-Hannifin Corporation Common Stock,0.926397,bulk_pct=0.388;market_cap=122957082377;volume=552302,L2_PASS
+US,ABBV,AbbVie Inc. Common Stock,0.926194,bulk_pct=0.015;market_cap=468498134599;volume=3458170,L2_PASS
+US,ISRG,Intuitive Surgical Inc. Common Stock,0.926016,bulk_pct=0.306;market_cap=141141641742;volume=1565480,L2_PASS
+US,BNY,The Bank of New York Mellon Corporation Common Stock,0.925993,bulk_pct=0.455;market_cap=101904537087;volume=3544771,L2_PASS
+US,EMR,Emerson Electric Company Common Stock,0.925731,bulk_pct=1.003;market_cap=87094892000;volume=2071934,L2_PASS
+US,COF,Capital One Financial Corporation Common Stock,0.925409,bulk_pct=0.26;market_cap=120617253606;volume=3688181,L2_PASS
+US,WBD,Warner Bros. Discovery Inc. Series A Common Stock,0.925309,bulk_pct=0.26;market_cap=77430090204;volume=46110292,L2_PASS
+US,VEEV,Veeva Systems Inc. Class A Common Stock,0.925020,bulk_pct=1.511;market_cap=44499028334;volume=1380053,L2_PASS
+US,ALL,Allstate Corporation (The) Common Stock,0.924513,bulk_pct=0.669;market_cap=57441740502;volume=2967263,L2_PASS
+US,HUM,Humana Inc. Common Stock,0.923627,bulk_pct=1.478;market_cap=45668942739;volume=899024,L2_PASS
+US,CAH,Cardinal Health Inc. Common Stock,0.923117,bulk_pct=0.61;market_cap=51549741384;volume=3480951,L2_PASS
+US,TJX,TJX Companies Inc. (The) Common Stock,0.922844,bulk_pct=0.03;market_cap=144789585649;volume=8134248,L2_PASS
+US,FIX,Comfort Systems USA Inc. Common Stock,0.922837,bulk_pct=1.076;market_cap=57838008335;volume=218394,L2_PASS
+US,KEYS,Keysight Technologies Inc. Common Stock,0.922315,bulk_pct=1.183;market_cap=60869306127;volume=845305,L2_PASS
+US,EQT,EQT Corporation Common Stock,0.921805,bulk_pct=1.586;market_cap=32445514920;volume=8136207,L2_PASS
+US,EOG,EOG Resources Inc. Common Stock,0.921479,bulk_pct=0.719;market_cap=74934238083;volume=2672414,L2_PASS
+US,STT,State Street Corporation Common Stock,0.921230,bulk_pct=0.634;market_cap=49745742624;volume=3492741,L2_PASS
+US,LRCX,Lam Research Corporation Common Stock,0.920712,bulk_pct=-0.039;market_cap=384355758360;volume=7904001,L2_PASS
+US,CIEN,Ciena Corporation Common Stock,0.920427,bulk_pct=0.708;market_cap=50828429616;volume=1421174,L2_PASS
+US,AMAT,Applied Materials Inc. Common Stock,0.920380,bulk_pct=-0.027;market_cap=376363587343;volume=4165383,L2_PASS
+US,HWM,Howmet Aerospace Inc. Common Stock,0.919415,bulk_pct=0.262;market_cap=91477064903;volume=2228095,L2_PASS
+US,TRV,The Travelers Companies Inc. Common Stock,0.918871,bulk_pct=0.555;market_cap=75585502223;volume=1053647,L2_PASS
+US,ICE,Intercontinental Exchange Inc. Common Stock,0.918723,bulk_pct=0.371;market_cap=88099636845;volume=2683552,L2_PASS
+US,EXPE,Expedia Group Inc. Common Stock,0.918505,bulk_pct=1.046;market_cap=29969299469;volume=2276975,L2_PASS
+US,MRK,Merck & Company Inc. Common Stock (new),0.918233,bulk_pct=-0.068;market_cap=365092058991;volume=10312766,L2_PASS
+US,ROST,Ross Stores Inc. Common Stock,0.918037,bulk_pct=0.607;market_cap=75199262094;volume=1454504,L2_PASS
+US,GE,GE Aerospace Common Stock,0.917963,bulk_pct=-0.006;market_cap=331791740407;volume=3728020,L2_PASS
+US,AME,AMETEK Inc.,0.917869,bulk_pct=0.523;market_cap=56797180589;volume=1992119,L2_PASS
+US,LYV,Live Nation Entertainment Inc. Common Stock,0.917196,bulk_pct=1.201;market_cap=40307528092;volume=1936698,L2_PASS
+US,CVNA,Carvana Co. Class A Common Stock,0.916537,bulk_pct=0.36;market_cap=70627764759;volume=6971754,L2_PASS
+US,BSX,Boston Scientific Corporation Common Stock,0.915920,bulk_pct=0.134;market_cap=64751575222;volume=17297544,L2_PASS
+US,AAPL,Apple Inc. Common Stock,0.915839,bulk_pct=-0.326;market_cap=4902476945600;volume=24733329,L2_PASS
+US,AMGN,Amgen Inc. Common Stock,0.915499,bulk_pct=-0.012;market_cap=219518219310;volume=2525241,L2_PASS
+US,ORLY,O'Reilly Automotive Inc. Common Stock,0.914211,bulk_pct=0.396;market_cap=69764778702;volume=4350290,L2_PASS
+US,GWW,W.W. Grainger Inc. Common Stock,0.913930,bulk_pct=0.693;market_cap=60264242261;volume=229698,L2_PASS
+US,NVDA,NVIDIA Corporation Common Stock,0.913556,bulk_pct=-0.412;market_cap=5412378000000;volume=77808203,L2_PASS
+US,DG,Dollar General Corporation Common Stock,0.912862,bulk_pct=1.6;market_cap=27032175279;volume=2324818,L2_PASS
+US,SCHW,Charles Schwab Corporation (The) Common Stock,0.912842,bulk_pct=-0.01;market_cap=172051610186;volume=8907176,L2_PASS
+US,EXE,Expand Energy Corporation Common Stock,0.911143,bulk_pct=1.815;market_cap=20515865781;volume=3935650,L2_PASS
+US,NTAP,NetApp Inc. Common Stock,0.910583,bulk_pct=0.464;market_cap=38741684546;volume=2347973,L2_PASS
+US,BRK/B,Berkshire Hathaway Inc.,0.909745,bulk_pct=-0.392;market_cap=1114584378402;volume=2706197,L2_PASS
+US,OKE,ONEOK Inc. Common Stock,0.909680,bulk_pct=0.707;market_cap=57477106237;volume=2702688,L2_PASS
