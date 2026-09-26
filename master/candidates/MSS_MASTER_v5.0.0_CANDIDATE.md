@@ -233,6 +233,32 @@ AI FINAL과 Time-Bounded 철학에 맞게 본 버전에서 명시적으로 대�
 
 산출: 최대 약 10 / market.
 
+# 6-A. SIX-GATE BACKBONE — PRESERVED
+
+Level 4 심층검증은 기존 MSS 6-Gate 계보를 유지한다.
+세부 구현은 시장상황과 데이터 가용성에 따라 AI가 조정할 수 있으나 다음 6개 검증축은 삭제하지 않는다.
+
+G1 MARKET / REGIME
+- 시장 체질, 변동성, 국가별 조건, Sector leadership
+
+G2 STRONG TREND
+- 중기 추세, Relative Strength, liquidity, trend structure
+
+G3 HEALTHY PULLBACK
+- First Healthy Pullback, prior-pullback exclusion, support 유지, selling pressure
+
+G4 TIMING / ALARM
+- MS7 상태층, Daily STC, 60m STC, BUY/SELL state
+
+G5 REACCELERATION / RISK
+- 재가속 가능성, volume confirmation, gap/distribution, event/fundamental risk
+
+G6 FACT / INTEGRITY
+- completed bars, source date, cross-validation, fabrication=0, contradiction check
+
+Gate는 AI FINAL을 기계적으로 대신하지 않는다.
+그러나 Gate FAIL 또는 UNVERIFIED는 AI FINAL에서 반드시 근거와 함께 반영한다.
+
 # 7. SUSTAINABILITY-FIRST SELECTION
 
 최우선 후보는 단기 급등률이 가장 높은 종목이 아니다.
@@ -389,6 +415,34 @@ NOT FOUND → 새로 확보 후 저장
 과거 Count를 현재 Count로 재사용하지 않는다.
 검색결과에 이름만 노출된 종목은 Scan Count에 넣지 않는다.
 
+# 13-A. USER COUNTER / FAILURE ISOLATION — PRESERVED
+
+시장 Scan Counter와 MSS 사용자 Counter를 혼동하지 않는다.
+legacy execution counter는 고유 사용자 수가 아니다.
+고유 사용자 수는 별도 User Registry가 실제 구현된 경우에만 표시한다.
+User Registry 미구현 시: MSS 사용자 │ 조회불가.
+사용자 수를 추정하거나 강제 fingerprint로 보충하지 않는다.
+Counter 장애는 시장분석·후보선정·AI FINAL을 중단시키지 않는다.
+
+현재 계승 상태:
+- MSSCounter Durable Object authority: 존재할 수 있음
+- User Registry: 실제 구현 여부 확인 후 표시
+- unique_users runtime: 확인 불가 시 NOT_AVAILABLE
+
+# 13-B. COVERAGE vs RESULT COMPLETION
+
+Scan Coverage와 Recommendation Confidence는 별도 축이다.
+
+SCAN COVERAGE:
+- FULL / SUFFICIENT / PARTIAL / UNVERIFIED
+
+RECOMMENDATION CONFIDENCE:
+- HIGH / MEDIUM / LOW / UNVERIFIED
+
+Raw Scan Count 하나만으로 추천 가능/불가를 자동 결정하지 않는다.
+반대로 Coverage가 부족한데 Confidence를 과장하지도 않는다.
+AI는 탐색범위, 후보대표성, deep validation, data freshness를 함께 평가한다.
+
 # 14. FINAL RECOMMENDATION STATES
 
 AI FINAL은 다음 상태를 사용한다.
@@ -507,6 +561,23 @@ MSS RUN
 - 기존 FROZEN 덮어쓰기
 - Regression FAIL 버전 승격
 - Candidate를 CURRENT처럼 사용
+
+# 16-A. CONTRACT INHERITANCE / ORIGINAL SEMANTICS LOCK
+
+새 버전은 부모의 검증된 필수계약을 상속한다.
+명시적 변경대상이 아닌 기존 필수기능은 삭제·약화하지 않는다.
+핵심 의미가 충돌하거나 불명확하면 Alarm lineage와 직전 정상 CURRENT를 우선 확인한다.
+
+본 v5.0.0의 의도적 변경은 다음 두 v4.x scan 규칙에 한정된다.
+- absolute KR≥300 / US≥300 recommendation gate
+- sequential 300→500→700→FULL breadth expansion
+
+위 두 규칙은 사용자 지시에 따라 AI FINAL / Time-Bounded / Progressive Compression 체계로 대체한다.
+그 외 검증된 기능은 유지한다.
+
+NO LOWER-RULE OVERRIDE:
+Dataset, API, Counter, Indicator, Threshold, Gate, 출력형식은
+AI FINAL AUTHORITY / FACT INTEGRITY / MASTER OBJECTIVE / SELF-VALIDATION을 무효화할 수 없다.
 
 # 17. SINGLE CURRENT AUTHORITY
 
@@ -735,5 +806,6 @@ Replacement:
 - Alarm/MS7-STC inheritance
 - explicit source date semantics
 
-Candidate regression target: 72/72
+Historical invalid artifact: v4.12.0 reconstructed/corrupt file — NOT AUTHORITY
+Candidate regression target: 80/80
 Candidate status: CANDIDATE
