@@ -35,7 +35,7 @@
     "│ 핵심: [가장 중요한 한 문장]"
   ],
   "pointer_rule": "current.json is the sole CURRENT authority.",
-  "runtime_run_id": "20260926-MSS-v6.2.1-R2",
+  "runtime_run_id": "20260926-MSS-v6.2.1-R3",
   "runtime_execution_status": "COMPLETE",
   "evidence_manifest": "mss_dataset/evidence_manifest_v6_2_1.json"
 }
