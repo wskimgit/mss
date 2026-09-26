@@ -9,13 +9,13 @@ KR,161890,한국콜마,PASS_OR_STRONG_ANCHOR,FAIL,FAIL,UNVERIFIED,UNVERIFIED,PRI
 KR,036930,주성엔지니어링,PASS_OR_STRONG_ANCHOR,FAIL,FAIL,UNVERIFIED,UNVERIFIED,PRIOR_PULLBACK,DROPPED,PRIOR_PULLBACK_FAIL: multiple Jun-Jul 2026 >8% declines
 KR,010950,S-Oil,PASS_OR_STRONG_ANCHOR,FAIL,FAIL,UNVERIFIED,UNVERIFIED,PRIOR_PULLBACK,DROPPED,PRIOR_PULLBACK_FAIL: Jun 25 / Jul 27 2026 >8% declines
 KR,003490,대한항공,PASS_OR_STRONG_ANCHOR,FAIL,FAIL,UNVERIFIED,UNVERIFIED,PRIOR_PULLBACK,DROPPED,PRIOR_PULLBACK_FAIL: cumulative Jul 7→Jul 29 >8%
-US,AAPL,Apple Inc. Common Stock,PASS,FAIL,FAIL,PASS,UNVERIFIED,PRIOR_PULLBACK,DROPPED,prior_max_dd=-12.71%; current_dd=-1.13%; last=2026-09-24
-US,CRM,Salesforce Inc. Common Stock,PASS,FAIL,FAIL,PASS,UNVERIFIED,PRIOR_PULLBACK,DROPPED,prior_max_dd=-28.38%; current_dd=-9.91%; last=2026-09-24
-US,LRCX,Lam Research Corporation Common Stock,PASS,FAIL,FAIL,PASS,UNVERIFIED,PRIOR_PULLBACK,DROPPED,prior_max_dd=-41.76%; current_dd=-4.14%; last=2026-09-24
-US,MSFT,Microsoft Corporation Common Stock,PASS,FAIL,FAIL,PASS,UNVERIFIED,PRIOR_PULLBACK,DROPPED,prior_max_dd=-23.38%; current_dd=-3.04%; last=2026-09-24
-US,NVDA,NVIDIA Corporation Common Stock,PASS,FAIL,FAIL,PASS,UNVERIFIED,PRIOR_PULLBACK,DROPPED,prior_max_dd=-19.40%; current_dd=-2.51%; last=2026-09-24
-US,TSM,Taiwan Semiconductor Manufacturing Company Ltd.,PASS,FAIL,FAIL,PASS,UNVERIFIED,PRIOR_PULLBACK,DROPPED,prior_max_dd=-21.55%; current_dd=-0.19%; last=2026-09-24
-US,SAP,SAP  SE ADS,PASS,FAIL,FAIL,PASS,UNVERIFIED,PRIOR_PULLBACK,DROPPED,prior_max_dd=-25.36%; current_dd=-5.61%; last=2026-09-24
-US,TSLA,Tesla Inc. Common Stock,PASS,FAIL,FAIL,PASS,UNVERIFIED,PRIOR_PULLBACK,DROPPED,prior_max_dd=-33.00%; current_dd=-0.57%; last=2026-09-24
-US,AMD,Advanced Micro Devices Inc. Common Stock,PARTIAL,FAIL,FAIL,UNVERIFIED,UNVERIFIED,PRIOR_PULLBACK,DROPPED,PRIOR_PULLBACK_FAIL: Jul 28 2026 -8.15%
-US,CAT,Caterpillar Inc. Common Stock,PARTIAL,FAIL,FAIL,UNVERIFIED,UNVERIFIED,PRIOR_PULLBACK,DROPPED,PRIOR_PULLBACK_FAIL: cumulative Jul 9→Jul 29 2026 >8%
+US,V,Visa Inc.,PASS,PASS,PASS,PASS_THROUGH_2026-09-25,STABILIZING_NOT_REACCELERATED,NO_MAJOR_BREAKDOWN_DETECTED,STABILIZING,Aug26 high 385.57 → Sep22 close 362.04 (~-6.1%); Sep23 361.52 → Sep24 367.98 → Sep25 366.79; prior 6M reviewed without >8% qualifying earlier pullback
+US,TMO,Thermo Fisher Scientific Inc Common Stock,PASS,NOT_CONFIRMED,UNVERIFIED,PASS_THROUGH_2026-09-24,NEAR_HIGH,SEP25_CLOSE_NOT_VERIFIED,WATCH,"Strong trend, but qualifying current pullback not confirmed; latest verified completed bar 2026-09-24"
+US,DIS,Walt Disney Company (The) Common Stock,PROVISIONAL,UNVERIFIED,UNVERIFIED,PRICE_BAR_2026-09-24_ONLY,UNVERIFIED,DEEP_HISTORY_OR_SEP25_CLOSE_MISSING,WATCH,Level-4 targeted watch; no READY promotion without deep-history + completed-bar qualification
+US,VZ,Verizon Communications Inc. Common Stock,PROVISIONAL,UNVERIFIED,UNVERIFIED,PRICE_BAR_2026-09-24_ONLY,UNVERIFIED,DEEP_HISTORY_OR_SEP25_CLOSE_MISSING,WATCH,Level-4 targeted watch; no READY promotion without deep-history + completed-bar qualification
+US,VLO,Valero Energy Corporation Common Stock,PROVISIONAL,UNVERIFIED,UNVERIFIED,PRICE_BAR_2026-09-24_ONLY,UNVERIFIED,DEEP_HISTORY_OR_SEP25_CLOSE_MISSING,WATCH,Level-4 targeted watch; no READY promotion without deep-history + completed-bar qualification
+US,RCL,Royal Caribbean Cruises Ltd. Common Stock,PROVISIONAL,UNVERIFIED,UNVERIFIED,PRICE_BAR_2026-09-24_ONLY,UNVERIFIED,DEEP_HISTORY_OR_SEP25_CLOSE_MISSING,WATCH,Level-4 targeted watch; no READY promotion without deep-history + completed-bar qualification
+US,MA,Mastercard Incorporated Common Stock,PROVISIONAL,UNVERIFIED,UNVERIFIED,PRICE_BAR_2026-09-24_ONLY,UNVERIFIED,DEEP_HISTORY_OR_SEP25_CLOSE_MISSING,WATCH,Level-4 targeted watch; no READY promotion without deep-history + completed-bar qualification
+US,UNH,UnitedHealth Group Incorporated Common Stock (DE),PROVISIONAL,UNVERIFIED,UNVERIFIED,PRICE_BAR_2026-09-24_ONLY,UNVERIFIED,DEEP_HISTORY_OR_SEP25_CLOSE_MISSING,WATCH,Level-4 targeted watch; no READY promotion without deep-history + completed-bar qualification
+US,DDOG,Datadog Inc. Class A Common Stock,PROVISIONAL,UNVERIFIED,UNVERIFIED,PRICE_BAR_2026-09-24_ONLY,UNVERIFIED,DEEP_HISTORY_OR_SEP25_CLOSE_MISSING,WATCH,Level-4 targeted watch; no READY promotion without deep-history + completed-bar qualification
+US,HPE,Hewlett Packard Enterprise Company Common Stock,PROVISIONAL,UNVERIFIED,UNVERIFIED,PRICE_BAR_2026-09-24_ONLY,UNVERIFIED,DEEP_HISTORY_OR_SEP25_CLOSE_MISSING,WATCH,Level-4 targeted watch; no READY promotion without deep-history + completed-bar qualification
