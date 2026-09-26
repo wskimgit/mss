@@ -3,7 +3,7 @@
   "run_id": "20260926-MSS-v7.1.0-R1",
   "mss_version": "v7.1.0",
   "acquisition_package_time_utc": "2026-09-26T05:02:25Z",
-  "acquisition_package_time_source": "GitHub commit 8fc0f5941cd07c9c721d2204414a98c603abf429 after web evidence retrieval",
+  "acquisition_package_time_source": "GitHub commit 8fc0f5941cd07c9c721d2204414a98c603abf429 after external evidence retrieval",
   "markets": {
     "KR": {
       "latest_completed_trading_day": "2026-09-23",
@@ -22,7 +22,7 @@
     "미국 원자료에는 1주·1개월·3개월·6개월 광역 수익률이 없어 1·2단계는 광역 선별점수로만 사용"
   ],
   "stage3_sources_ko": [
-    "한국경제/시장 가격자료",
+    "한국경제 시장가격",
     "DART 기반 기업행위 확인",
     "FinanceCharts",
     "StockAnalysis",
