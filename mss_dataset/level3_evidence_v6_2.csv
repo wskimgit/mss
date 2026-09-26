@@ -1,0 +1,61 @@
+market,symbol,name,fresh_score,sustainability_focus,anchoring_bias,status
+KR,222800,심텍,7.281276,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,010170,대한광통신,6.800914,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,036930,주성엔지니어링,6.294764,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,252990,샘씨엔에스,6.244429,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,096770,SK이노베이션,6.102724,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,131290,티에스이,6.092384,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,281820,케이씨텍,5.919341,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,010950,S-Oil,5.902845,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,098120,마이크로컨텍솔,5.884846,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,036540,SFA반도체,5.827334,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,003490,대한항공,5.793291,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,144960,뉴파워프라즈마,5.745906,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,001820,삼화콘덴서,5.639583,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,024840,KBI메탈,5.540006,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,229640,LS에코에너지,5.505136,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,103590,일진전기,5.478369,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,456010,아이씨티케이,5.433465,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,417840,저스템,5.353257,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,403870,HPSP,5.332813,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,059090,미코,5.327116,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,077360,덕산하이메탈,5.265258,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,000150,두산,5.209890,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,053800,안랩,5.203000,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,204270,제이앤티씨,5.169813,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,005930,삼성전자,5.154068,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,425420,티에프이,5.125636,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,080580,오킨스전자,5.048691,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,064290,인텍플러스,5.042286,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,119850,지엔씨에너지,5.034381,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+KR,031980,피에스케이홀딩스,4.919851,multi-horizon persistence / overextension / liquidity / sector,NONE,L3_CURRENT_RUN
+US,GOOGL,Alphabet Inc. Class A Common Stock,2.628628,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,INTC,Intel Corporation Common Stock,2.623999,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,AMZN,Amazon.com Inc. Common Stock,2.618601,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,GOOG,Alphabet Inc. Class C Capital Stock,2.569682,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,MU,Micron Technology Inc. Common Stock,2.457214,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,AMD,Advanced Micro Devices Inc. Common Stock,2.454655,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,NVDA,NVIDIA Corporation Common Stock,2.433692,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,BAC,Bank of America Corporation Common Stock,2.398814,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,CSCO,Cisco Systems Inc. Common Stock (DE),2.374193,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,PLTR,Palantir Technologies Inc. Class A Common Stock,2.334754,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,NFLX,Netflix Inc. Common Stock,2.309417,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,XOM,ExxonMobil Holdings Corporation Common Stock,2.295976,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,T,AT&T Inc.,2.267210,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,PFE,Pfizer Inc. Common Stock,2.259884,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,AAPL,Apple Inc. Common Stock,2.254886,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,JPM,JP Morgan Chase & Co. Common Stock,2.250089,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,KO,Coca-Cola Company (The) Common Stock,2.230129,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,VZ,Verizon Communications Inc. Common Stock,2.212452,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,WBD,Warner Bros. Discovery Inc. Series A Common Stock,2.204606,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,JNJ,Johnson & Johnson Common Stock,2.194661,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,CVX,Chevron Corporation Common Stock,2.190181,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,WFC,Wells Fargo & Company Common Stock,2.164482,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,MSFT,Microsoft Corporation Common Stock,2.160908,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,V,Visa Inc.,2.143762,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,APH,Amphenol Corporation Common Stock,2.132990,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,LLY,Eli Lilly and Company Common Stock,2.125100,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,CRM,Salesforce Inc. Common Stock,2.119148,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,TSLA,Tesla Inc. Common Stock,2.108106,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,HPE,Hewlett Packard Enterprise Company Common Stock,2.105077,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
+US,BMY,Bristol-Myers Squibb Company Common Stock,2.104148,size / liquidity / latest price position / targeted history at L4,NONE,L3_CURRENT_RUN
