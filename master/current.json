@@ -1,55 +1,31 @@
 {
   "system": "MSS",
-  "current": "v7.0.0",
-  "previous": "v6.2.1",
+  "current": "v7.1.0",
+  "previous": "v7.0.0",
   "status": "FROZEN_CURRENT",
   "authority": "SINGLE_CURRENT",
-  "master_path": "master/MSS_MASTER_v7.0.0_FROZEN_CURRENT.md",
+  "master_path": "master/MSS_MASTER_v7.1.0_FROZEN_CURRENT.md",
   "master_hash": {
     "algorithm": "git_blob_sha1",
-    "value": "b2567c2659a7c672a9b546f3ddd81240f703f428"
+    "value": "f2e8ee4f564a733cf497dde60dd3d2b74b563993"
   },
-  "sha256": null,
-  "regression_report": "master/MSS_v7.0.0_REGRESSION_REPORT.json",
+  "validation_contract": "master/MSS_VALIDATION_CONTRACT_v7.1.0_FROZEN.md",
+  "validation_contract_hash": {
+    "algorithm": "git_blob_sha1",
+    "value": "4ee36d1719b772239172548d0419e4b159ce2fc4"
+  },
+  "validation_addendum": "master/MSS_VALIDATION_ADDENDUM_v7.1.0_FROZEN.md",
+  "validation_addendum_hash": {
+    "algorithm": "git_blob_sha1",
+    "value": "0fcc7246ed346ec995412adbc72a3e1e441e8b78"
+  },
+  "regression_report": "master/MSS_v7.1.0_REGRESSION_REPORT.json",
   "regression": {
-    "passed": 140,
+    "passed": 180,
     "failed": 0,
-    "total": 140
+    "total": 180
   },
-  "structural_dry_run": {
-    "passed": 14,
-    "failed": 0,
-    "total": 14,
-    "status": "PASS"
-  },
-  "ai_final_approval": "APPROVED",
-  "auto_freeze": "COMPLETE",
-  "runtime_manifest": "mss_dataset/run_manifest.json",
-  "runtime_status": "V7_RUNTIME_CURRENT",
-  "previous_runtime_validation": {
-    "run_id": "20260926-MSS-v6.2.1-R3",
-    "structural_problem": "YES",
-    "detected_violations": 10
-  },
+  "runtime_status": "V7.1_EXECUTION_PENDING",
   "display_language": "KOREAN",
-  "mandatory_conclusion_block": [
-    "MSS 한줄 결론",
-    "│ 최우선: [종목/없음]",
-    "│ 다음 후보: [종목들/없음]",
-    "│ 신뢰도: [높음/중상/중간/중하/낮음]",
-    "│ 핵심: [가장 중요한 한 문장]"
-  ],
-  "pointer_rule": "current.json is the sole CURRENT authority.",
-  "runtime_run_id": "20260926-MSS-v7.0.0-R1",
-  "runtime_execution_status": "COMPLETE",
-  "evidence_manifest": "mss_dataset/evidence_manifest_v7.json",
-  "execution_trace": "mss_dataset/execution_trace_v7.json",
-  "runtime_validation": {
-    "passed": 24,
-    "failed": 0,
-    "total": 24,
-    "status": "PASS",
-    "structural_problem": "NO"
-  },
-  "coverage": "PARTIAL_US_BULK_ONE_TRADING_DAY_STALE"
+  "pointer_rule": "current.json is the sole CURRENT authority."
 }
