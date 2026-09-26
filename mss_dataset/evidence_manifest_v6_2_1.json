@@ -1,0 +1,81 @@
+{
+  "schema": "mss_fresh_discovery_v6_2_1",
+  "run_id": "20260926-MSS-v6.2.1-R1",
+  "mss_version": "v6.2.1",
+  "prior_recommendations_used_as_seed": false,
+  "prior_rank_or_score_reused": false,
+  "raw_market_assets_reused_after_freshness_validation": true,
+  "current_run_scoring_rebuilt": true,
+  "display_language": "KOREAN",
+  "final_candidates": [
+    {
+      "market": "US",
+      "symbol": "NVDA",
+      "state_ko": "현재 선정",
+      "confidence_ko": "높음"
+    },
+    {
+      "market": "US",
+      "symbol": "LLY",
+      "state_ko": "현재 선정",
+      "confidence_ko": "높음"
+    },
+    {
+      "market": "KR",
+      "symbol": "000150",
+      "state_ko": "현재 선정",
+      "confidence_ko": "중상"
+    },
+    {
+      "market": "US",
+      "symbol": "GOOGL",
+      "state_ko": "안정화",
+      "confidence_ko": "중상"
+    },
+    {
+      "market": "US",
+      "symbol": "AMZN",
+      "state_ko": "안정화",
+      "confidence_ko": "중상"
+    }
+  ],
+  "comparison_after_selection": {
+    "previous_top": [
+      "NVDA",
+      "LLY",
+      "000150"
+    ],
+    "current_top": [
+      "NVDA",
+      "LLY",
+      "000150"
+    ],
+    "overlap": [
+      "NVDA",
+      "LLY",
+      "000150"
+    ],
+    "interpretation_ko": "이전 추천을 입력으로 쓰지 않았지만 최신 근거에서도 세 종목이 독립적으로 다시 자격을 얻음."
+  },
+  "independent_review": {
+    "anchoring_bias_check_ko": "통과",
+    "false_positive_review_ko": "통과",
+    "false_negative_review_ko": "미국 전체시장 원자료가 9월24일 기준이라는 제한을 포함해 통과",
+    "strongest_rejections_ko": {
+      "AMD": "상승 지속성은 강하지만 현재 가격위치가 과열권.",
+      "MU": "9월30일 실적발표가 가까워 단기 사건위험이 큼.",
+      "SIMMTECH": "실적개선은 강하지만 1개월 급등과 고점근접으로 추격위험 큼."
+    }
+  },
+  "prompt_self_validation": {
+    "fresh_discovery_from_latest_universe_ko": "통과",
+    "previous_recommendation_priority_ko": "없음",
+    "comparison_only_after_selection_ko": "통과",
+    "user_visible_language_ko": "통과",
+    "non_executable_step_remaining_ko": "없음",
+    "lower_rule_override_ko": "없음",
+    "structural_problem_ko": "아니오",
+    "rule_change_ko": "아니오",
+    "version_action_ko": "v6.2.1 동결·현재 유지"
+  }
+}
