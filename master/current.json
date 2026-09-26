@@ -1,31 +1,36 @@
 {
   "system": "MSS",
-  "current": "v6.2.1",
-  "previous": "v6.2.0",
+  "current": "v7.0.0",
+  "previous": "v6.2.1",
   "status": "FROZEN_CURRENT",
   "authority": "SINGLE_CURRENT",
-  "master_path": "master/MSS_MASTER_v6.2.1_FROZEN_CURRENT.md",
+  "master_path": "master/MSS_MASTER_v7.0.0_FROZEN_CURRENT.md",
   "master_hash": {
     "algorithm": "git_blob_sha1",
-    "value": "e127a821682b30d6661b20d40f80314a5d2f2bde"
+    "value": "b2567c2659a7c672a9b546f3ddd81240f703f428"
   },
   "sha256": null,
-  "regression_report": "master/MSS_v6.2.1_REGRESSION_REPORT.json",
+  "regression_report": "master/MSS_v7.0.0_REGRESSION_REPORT.json",
   "regression": {
-    "passed": 94,
+    "passed": 140,
     "failed": 0,
-    "total": 94
+    "total": 140
   },
   "structural_dry_run": {
-    "passed": 8,
+    "passed": 14,
     "failed": 0,
-    "total": 8,
+    "total": 14,
     "status": "PASS"
   },
   "ai_final_approval": "APPROVED",
   "auto_freeze": "COMPLETE",
   "runtime_manifest": "mss_dataset/run_manifest.json",
-  "runtime_status": "V6.2.1_RUNTIME_CURRENT",
+  "runtime_status": "V7_EXECUTION_PENDING; V6.2.1-R3_INVALID_UNDER_V7_VALIDATOR",
+  "previous_runtime_validation": {
+    "run_id": "20260926-MSS-v6.2.1-R3",
+    "structural_problem": "YES",
+    "detected_violations": 10
+  },
   "display_language": "KOREAN",
   "mandatory_conclusion_block": [
     "MSS 한줄 결론",
@@ -34,8 +39,5 @@
     "│ 신뢰도: [높음/중상/중간/중하/낮음]",
     "│ 핵심: [가장 중요한 한 문장]"
   ],
-  "pointer_rule": "current.json is the sole CURRENT authority.",
-  "runtime_run_id": "20260926-MSS-v6.2.1-R3",
-  "runtime_execution_status": "COMPLETE",
-  "evidence_manifest": "mss_dataset/evidence_manifest_v6_2_1.json"
+  "pointer_rule": "current.json is the sole CURRENT authority."
 }
