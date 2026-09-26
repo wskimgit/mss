@@ -1,34 +1,36 @@
 {
-  "schema": "mss_source_manifest_v6_2_1",
-  "run_id": "20260926-MSS-v6.2.1-R3",
-  "mss_version": "v6.2.1",
+  "schema": "mss_source_manifest_v7",
+  "run_id": "20260926-MSS-v7.0.0-R1",
+  "mss_version": "v7.0.0",
   "execution_date": "2026-09-26",
   "markets": {
     "KR": {
       "LatestCompletedTradingDay": "2026-09-23",
       "DataBarDate": "2026-09-23",
-      "freshness_ko": "최신 완료거래일",
-      "bulk_source": "FinanceData/fdr_krx_data_cache raw universe",
-      "targeted_sources": [
-        "Investing.com 두산 9월23일 종가",
-        "연합뉴스/한국경제 두산 동박적층판 투자"
+      "freshness_ko": "최신",
+      "bulk_source": "FinanceData/fdr_krx_data_cache raw universe asset",
+      "targeted_sources_ko": [
+        "한국거래일·추석 휴장 확인",
+        "한국경제 시장·실적 자료",
+        "기업별 최근 실적 기사"
       ]
     },
     "US": {
       "LatestCompletedTradingDay": "2026-09-25",
       "DataBarDate_bulk": "2026-09-24",
-      "freshness_ko": "전체시장 원자료는 하루 지연, 상위후보는 가능한 범위에서 9월25일 별도 검증",
-      "bulk_source": "Nasdaq screener raw universe",
-      "targeted_sources": [
-        "Investing.com/StockAnalysis 가격기록",
-        "NVIDIA 투자자관계",
-        "Eli Lilly 투자자관계",
-        "Micron 투자자관계"
-      ],
-      "limitations_ko": [
-        "아마존 9월25일 종가는 독립 검증하지 못해 9월24일 종가만 사용"
+      "freshness_ko": "하루 지연",
+      "targeted_refresh_ko": "3·4단계 후보는 가능한 범위에서 2026-09-25 가격과 최신 실적을 별도 검증",
+      "targeted_sources_ko": [
+        "엔비디아 투자자관계",
+        "시스코 투자자관계",
+        "FinanceCharts/Investing 가격기록",
+        "기업 투자자관계 자료"
       ]
     }
   },
+  "limitations_ko": [
+    "미국 전체 5,277종목 원자료는 최신 완료거래일보다 1거래일 지연",
+    "따라서 미국 전체시장을 '최신 열린시장 전체'라고 표현하지 않고 시장포괄도를 부분으로 낮춤"
+  ],
   "fabrication": 0
 }
