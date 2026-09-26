@@ -1,0 +1,42 @@
+{
+  "schema": "mss_master_regression_v6_2_1",
+  "version": "v6.2.1",
+  "parent_version": "v6.2.0",
+  "date": "2026-09-26",
+  "change_type": "PATCH",
+  "frozen_master_path": "master/MSS_MASTER_v6.2.1_FROZEN_CURRENT.md",
+  "frozen_master_git_blob_sha": "e127a821682b30d6661b20d40f80314a5d2f2bde",
+  "regression": {
+    "passed": 94,
+    "failed": 0,
+    "total": 94,
+    "status": "PASS"
+  },
+  "structural_dry_run": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "status": "PASS"
+  },
+  "korean_display_contract": {
+    "user_visible_terms_korean_only": true,
+    "state_labels_korean": true,
+    "confidence_labels_korean": true,
+    "coverage_labels_korean": true,
+    "table_headers_korean": true,
+    "self_validation_labels_korean": true,
+    "conclusion_block_korean": true,
+    "internal_english_state_hidden_from_user": true,
+    "identifier_exceptions": [
+      "ticker",
+      "version",
+      "file_path",
+      "internal_field",
+      "proper_noun_when_translation_harms_identity"
+    ]
+  },
+  "ai_final_approval": "APPROVED",
+  "auto_freeze": "COMPLETE",
+  "runtime_execution_after_freeze": "NOT_RUN",
+  "status": "REGRESSION_PASS"
+}
