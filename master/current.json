@@ -1,25 +1,32 @@
 {
   "system": "MSS",
-  "current": "v6.1.1",
-  "previous": "v6.1.0",
+  "current": "v6.2.0",
+  "previous": "v6.1.1",
   "status": "FROZEN_CURRENT",
   "authority": "SINGLE_CURRENT",
-  "master_path": "master/MSS_MASTER_v6.1.1_FROZEN_CURRENT.md",
+  "master_path": "master/MSS_MASTER_v6.2.0_FROZEN_CURRENT.md",
   "master_hash": {
     "algorithm": "git_blob_sha1",
-    "value": "fb47378d1ffa8c49d477e6f44fc53adba8beccf3"
+    "value": "525851c0380039a68966e61e3eda8f177ae42942"
   },
   "sha256": null,
-  "regression_report": "master/MSS_v6.1.1_REGRESSION_REPORT.json",
+  "regression_report": "master/MSS_v6.2.0_REGRESSION_REPORT.json",
   "regression": {
-    "passed": 79,
+    "passed": 86,
     "failed": 0,
-    "total": 79
+    "total": 86
+  },
+  "structural_dry_run": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "status": "PASS"
   },
   "ai_final_approval": "APPROVED",
   "auto_freeze": "COMPLETE",
   "runtime_manifest": "mss_dataset/run_manifest.json",
-  "runtime_status": "V6.1_RUNTIME_INPUT_COMPATIBLE; V6.1.1_EXECUTION_PENDING",
+  "runtime_status": "V6.1_RUNTIME_INPUT_COMPATIBLE; V6.2_EXECUTION_PENDING",
+  "fresh_discovery_contract": "Every run rebuilds candidate priority from latest validated open-market universe; previous recommendations have no automatic priority.",
   "mandatory_conclusion_block": [
     "MSS 한줄 결론",
     "│ 최우선: [종목/NONE]",
