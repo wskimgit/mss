@@ -25,7 +25,7 @@
   "ai_final_approval": "APPROVED",
   "auto_freeze": "COMPLETE",
   "runtime_manifest": "mss_dataset/run_manifest.json",
-  "runtime_status": "V7_EXECUTION_PENDING; V6.2.1-R3_INVALID_UNDER_V7_VALIDATOR",
+  "runtime_status": "V7_RUNTIME_CURRENT",
   "previous_runtime_validation": {
     "run_id": "20260926-MSS-v6.2.1-R3",
     "structural_problem": "YES",
@@ -39,5 +39,17 @@
     "│ 신뢰도: [높음/중상/중간/중하/낮음]",
     "│ 핵심: [가장 중요한 한 문장]"
   ],
-  "pointer_rule": "current.json is the sole CURRENT authority."
+  "pointer_rule": "current.json is the sole CURRENT authority.",
+  "runtime_run_id": "20260926-MSS-v7.0.0-R1",
+  "runtime_execution_status": "COMPLETE",
+  "evidence_manifest": "mss_dataset/evidence_manifest_v7.json",
+  "execution_trace": "mss_dataset/execution_trace_v7.json",
+  "runtime_validation": {
+    "passed": 24,
+    "failed": 0,
+    "total": 24,
+    "status": "PASS",
+    "structural_problem": "NO"
+  },
+  "coverage": "PARTIAL_US_BULK_ONE_TRADING_DAY_STALE"
 }
