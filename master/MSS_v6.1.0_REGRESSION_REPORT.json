@@ -1,0 +1,49 @@
+{
+  "schema": "mss_master_regression_v6_1",
+  "version": "v6.1.0",
+  "parent_version": "v6.0.0",
+  "date": "2026-09-26",
+  "change_type": "MINOR",
+  "candidate_path": "master/candidates/MSS_MASTER_v6.1.0_CANDIDATE.md",
+  "frozen_master_path": "master/MSS_MASTER_v6.1.0_FROZEN_CURRENT.md",
+  "frozen_master_git_blob_sha": "f68f32acf65b752c3ef7e2f10803823d747c6d60",
+  "contract_regression": {
+    "passed": 76,
+    "failed": 0,
+    "total": 76,
+    "status": "PASS"
+  },
+  "structural_dry_run": {
+    "passed": 7,
+    "failed": 0,
+    "total": 7,
+    "status": "PASS"
+  },
+  "removed_runtime_dependencies": [
+    "MS7 runtime classification",
+    "Daily STC",
+    "60-minute STC",
+    "Slow Stochastic 14,3,3",
+    "fixed stochastic cross/setup dependency",
+    "RSI",
+    "MACD",
+    "ATR dependency",
+    "mandatory moving-average calculations",
+    "mandatory intraday-bar analysis"
+  ],
+  "replacements": [
+    "multi-horizon returns",
+    "cross-sectional relative-strength proxy",
+    "liquidity/volume",
+    "direct price position and pullback/drawdown",
+    "breakout/recovery/reacceleration",
+    "sector/market leadership",
+    "earnings/guidance/event context",
+    "freshness and contradiction checks"
+  ],
+  "restored_output_contract": "mandatory final one-line conclusion; no text after it",
+  "ai_final_approval": "APPROVED",
+  "auto_freeze": "COMPLETE",
+  "runtime_execution_after_freeze": "NOT_RUN",
+  "status": "REGRESSION_PASS"
+}
