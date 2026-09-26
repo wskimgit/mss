@@ -1,0 +1,87 @@
+{
+  "schema": "mss_adaptive_evidence_v6",
+  "run_id": "20260926-MSS-v6.0.0-R1",
+  "modules_used": [
+    "multi-horizon trend",
+    "relative-strength/momentum proxies",
+    "liquidity/volume",
+    "price position/pullback/overextension",
+    "sector/market leadership",
+    "latest earnings/guidance/news/event risk",
+    "targeted latest accessible quotes for selected US candidates"
+  ],
+  "modules_skipped": [
+    {
+      "module": "MS7",
+      "reason": "not required to reach evidence sufficiency for current final candidates"
+    },
+    {
+      "module": "Daily STC",
+      "reason": "lower marginal information value than direct price/trend evidence in this run"
+    },
+    {
+      "module": "60m STC",
+      "reason": "not required; v6 prohibits fixed-indicator veto and uses direct price-position evidence instead"
+    }
+  ],
+  "lower_rule_overrides": [
+    {
+      "rule": "v5 de-facto STC/60m availability gate",
+      "reason": "v6 explicitly replaced fixed-indicator gating with adaptive evidence sufficiency",
+      "confidence_impact": "NONE for ANET; SMALL for V/Samsung Electro-Mechanics"
+    }
+  ],
+  "evidence_sufficiency_rule": "At least 3 of Trend/Sustainability/Timing/Risk supported by reliable current evidence.",
+  "final_candidates": [
+    {
+      "market": "US",
+      "symbol": "ANET",
+      "state": "SELECT_NOW",
+      "confidence": "HIGH"
+    },
+    {
+      "market": "KR",
+      "symbol": "009150",
+      "state": "SELECT_NOW",
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "market": "US",
+      "symbol": "V",
+      "state": "SELECT_NOW",
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "market": "KR",
+      "symbol": "000660",
+      "state": "STABILIZING",
+      "confidence": "MEDIUM_HIGH"
+    },
+    {
+      "market": "KR",
+      "symbol": "108490",
+      "state": "STABILIZING",
+      "confidence": "MEDIUM"
+    }
+  ],
+  "independent_review": {
+    "false_positive_review": "PASS",
+    "false_negative_review": "PASS_WITH_LIMITATION_US_BULK_BAR_SEP24",
+    "strongest_rejections": {
+      "AMD": "trend exceptional but entry/price-position poor after ~187.5% YTD run",
+      "MU": "strong fundamentals but Sep30 earnings event creates near-term binary risk",
+      "META": "recent surge raises chase/reversal risk",
+      "SIMMTECH_222800": "recent KR momentum too extended"
+    }
+  },
+  "prompt_self_validation": {
+    "objective_alignment": "PASS",
+    "indicator_completion_over_objective": "NO",
+    "lower_rule_override_detected": "NO_AFTER_V6_REDESIGN",
+    "duplicated_low_information_compute": "NO",
+    "recurring_data_hold_block": "NO",
+    "structural_problem": "NO",
+    "rule_change": "NO",
+    "version_action": "KEEP_v6.0.0_FROZEN_CURRENT"
+  }
+}
