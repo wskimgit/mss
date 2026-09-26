@@ -1,0 +1,46 @@
+{
+  "schema": "mss_execution_trace_v7_1",
+  "run_id": "20260926-MSS-v7.1.0-R1",
+  "mss_version": "v7.1.0",
+  "execution_start_utc": "2026-09-26T04:51:47Z",
+  "execution_end_utc": "2026-09-26T05:12:16Z",
+  "execution_start_kst": "2026-09-26T13:51:47+09:00",
+  "execution_end_kst": "2026-09-26T14:12:16+09:00",
+  "elapsed_seconds": 1229,
+  "elapsed_ko": "20분 29초",
+  "time_source": "GitHub commit created_at",
+  "time_source_commits": {
+    "start": "781701571ff2eb86a923ce385ce765acd0e919ad",
+    "end": "a262e8fdb958d55e669bea64f271b246ad7b3b7d"
+  },
+  "hashes": {
+    "raw_kr": "675b138e4b1091d9664d0d6469ae5d12385f2041",
+    "raw_us": "99e82482136b92dc8ec59bcd5a0f85f17ca2c596",
+    "scoring": "6370c40cc0ab43bd73ba85244d98558e62b3e1be",
+    "stage1": "21d61c51fde1dcc05e2a7ce8271041b4f32f1897",
+    "stage2": "4264d7002f4e22e09dc5ad0dc79c0ac22eed1aa1",
+    "stage3": "72075418ec910e1a6efe31aee63bdbc97baadf5f",
+    "stage4": "849ed21c8ccd8bff0690e409b7ce3e23d13c0a4d",
+    "replay_A": "4049c986f4975dc0be4e5f29ba7f7e13b2715956",
+    "replay_B": "4049c986f4975dc0be4e5f29ba7f7e13b2715956"
+  },
+  "runtime_consistency": {
+    "passed": 15,
+    "failed": 0,
+    "total": 15
+  },
+  "user_output_validation": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5
+  },
+  "combined_runtime_validation": {
+    "passed": 20,
+    "failed": 0,
+    "total": 20
+  },
+  "replay_match": true,
+  "sensitivity_ko": "안정",
+  "structural_problem_ko": "아니오",
+  "execution_status_ko": "완료"
+}
