@@ -1,0 +1,83 @@
+{
+  "schema": "mss_master_regression_v5",
+  "version": "v5.0.0",
+  "parent_version": "v4.11.0",
+  "alarm_lineage": "ALARM_MS7-STC_DISTRIBUTION_v1.0.3",
+  "date": "2026-09-26",
+  "change_type": "MAJOR",
+  "candidate_path": "master/candidates/MSS_MASTER_v5.0.0_CANDIDATE.md",
+  "candidate_blob_sha": "d55c8769d6078b2b41dec571998d69f83d3d48aa",
+  "frozen_master_path": "master/MSS_MASTER_v5.0.0_FROZEN_CURRENT.md",
+  "frozen_master_git_blob_sha": "145cfa5aa5024dfbb7251d3bb49716f6b312598a",
+  "master_identity": {
+    "algorithm": "git_blob_sha1",
+    "value": "145cfa5aa5024dfbb7251d3bb49716f6b312598a",
+    "note": "v5 pointer uses repository blob identity for atomic master verification; no unverified SHA-256 is fabricated."
+  },
+  "contract_regression": {
+    "passed": 80,
+    "failed": 0,
+    "total": 80,
+    "status": "PASS"
+  },
+  "structural_dry_run": {
+    "status": "PASS",
+    "input_runtime_version": "v4.11.0",
+    "input_run_id": "20260926-MSS-v4.11.0-R2",
+    "universe": {
+      "KR": 2470,
+      "US": 5277
+    },
+    "simulated_funnel": {
+      "KR": {
+        "L0": 2470,
+        "L1": 300,
+        "L2": 100,
+        "L3": 30,
+        "L4": 10
+      },
+      "US": {
+        "L0": 5277,
+        "L1": 300,
+        "L2": 100,
+        "L3": 30,
+        "L4": 10
+      }
+    },
+    "repeated_full_rescan": false,
+    "note": "Structural flow validation only; this is not a v5 market-selection execution."
+  },
+  "lineage_validation": {
+    "ai_final_highest_authority": "PASS",
+    "fact_integrity": "PASS",
+    "alarm_ms7": "PASS",
+    "daily_stc": "PASS",
+    "intraday_60m_stc": "PASS",
+    "buy_sell_state_machine": "PASS",
+    "six_gate_backbone": "PASS",
+    "first_healthy_pullback": "PASS",
+    "data_recovery": "PASS",
+    "runtime_assetization": "PASS",
+    "self_improvement": "PASS",
+    "single_current_authority": "PASS"
+  },
+  "intentional_replacements": [
+    "v4.x absolute KR>=300 / US>=300 recommendation hard gate",
+    "v4.x sequential 300->500->700->FULL breadth expansion"
+  ],
+  "replacements": [
+    "AI FINAL highest authority within FACT INTEGRITY boundary",
+    "time-bounded one-pass open-market discovery",
+    "progressive compression ~300->100->30->10",
+    "sustainability-first final recommendation",
+    "Alarm/MS7-STC inheritance",
+    "mandatory AI independent self-validation",
+    "SourceFetchedAt/DataBarDate/LatestCompletedTradingDay separation"
+  ],
+  "removed_features_unapproved": [],
+  "runtime_execution_after_freeze": "NOT_RUN",
+  "runtime_asset_status": "v4.11 assets may be reused as validated INPUT only; next MSS run must create a v5 run_manifest.",
+  "ai_final_approval": "APPROVED",
+  "freeze_eligible": true,
+  "status": "REGRESSION_PASS"
+}
