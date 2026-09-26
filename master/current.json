@@ -25,7 +25,10 @@
   "ai_final_approval": "APPROVED",
   "auto_freeze": "COMPLETE",
   "runtime_manifest": "mss_dataset/run_manifest.json",
-  "runtime_status": "V6.0_RUNTIME_INPUT_COMPATIBLE; V6.1_EXECUTION_PENDING",
+  "runtime_status": "V6.1_RUNTIME_CURRENT",
   "mandatory_last_line": "MSS 한줄 결론",
-  "pointer_rule": "current.json is the sole CURRENT authority; internal CURRENT labels in historical files are non-authoritative."
+  "pointer_rule": "current.json is the sole CURRENT authority; internal CURRENT labels in historical files are non-authoritative.",
+  "runtime_run_id": "20260926-MSS-v6.1.0-R1",
+  "runtime_execution_status": "COMPLETE",
+  "evidence_manifest": "mss_dataset/evidence_manifest_v6_1.json"
 }
