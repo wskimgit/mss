@@ -1,77 +1,52 @@
 {
-  "schema": "mss_run_manifest_v5",
-  "run_id": "20260926-MSS-v5.0.0-R1",
-  "mss_version": "v5.0.0",
+  "schema": "mss_run_manifest_v6",
+  "run_id": "20260926-MSS-v6.0.0-R1",
+  "mss_version": "v6.0.0",
   "execution_date": "2026-09-26",
-  "current_master": "master/MSS_MASTER_v5.0.0_FROZEN_CURRENT.md",
+  "current_master": "master/MSS_MASTER_v6.0.0_FROZEN_CURRENT.md",
   "market_dates": {
     "KR": "2026-09-23",
     "US": "2026-09-25"
   },
-  "actual_scan_path": "VALIDATE CURRENT → REUSE VALID KR/US UNIVERSE INPUT → ONE-PASS CHEAP SCREEN → L1 300 → L2 100 → L3 30 → L4 10 → TARGETED LATEST CONTEXT → ALARM DATA HOLD CHECK → AI INDEPENDENT REVIEW → AI FINAL → SELF-VALIDATION",
-  "recovery_path": "Reuse v4.11 assets as input only → separate SourceFetchedAt/DataBarDate/LatestCompletedTradingDay → targeted web cross-validation for L4",
-  "reused_assets": [
+  "execution_path": "CURRENT RESOLUTION → DATE/FRESHNESS VALIDATION → REPROCESS VALID BULK INPUT → 300→100→30→10 → ADAPTIVE EVIDENCE → LATEST CONTEXT/RISK → INDEPENDENT AI REVIEW → AI FINAL → PROMPT SELF-VALIDATION",
+  "reused_input_assets": [
     "universe_kr.csv",
     "universe_us.csv",
     "level1_market.csv"
   ],
-  "rebuilt_assets": [
-    "level2_trend.csv",
-    "level3_pullback.csv",
-    "level4_6gate.csv",
+  "generated_v6_assets": [
+    "level2_evidence_v6.csv",
+    "level3_evidence_v6.csv",
+    "level4_evidence_v6.csv",
+    "evidence_manifest_v6.json",
     "source_manifest.json",
     "scan_counter.json",
     "run_manifest.json"
   ],
+  "selected_now": [
+    "ANET",
+    "009150",
+    "V"
+  ],
+  "stabilizing": [
+    "000660",
+    "005930",
+    "108490",
+    "CDNS",
+    "GOOGL"
+  ],
+  "wait": [
+    "MU",
+    "AMD",
+    "META",
+    "INTC",
+    "222800",
+    "067310"
+  ],
+  "final_summary": "ANET has the strongest combined trend/fundamental/price-position evidence; Samsung Electro-Mechanics has strong AI-component order/earnings evidence with KR price-source discrepancy limiting confidence; Visa provides the cleanest lower-volatility pullback/recovery profile.",
+  "coverage": "SUFFICIENT",
+  "overall_confidence": "MEDIUM_HIGH",
   "time_budget_stop": "YES",
-  "repeated_full_rescan": false,
-  "alarm_layer_status": "PARTIAL_DATA_HOLD",
-  "final_recommendation": {
-    "ready_now": [],
-    "stabilizing": [
-      "V",
-      "009150",
-      "108490",
-      "000660",
-      "CDNS"
-    ],
-    "wait_for_first_pullback": [
-      "AMD",
-      "META",
-      "INTC",
-      "222800",
-      "067310"
-    ],
-    "watch": [
-      "062040",
-      "000990",
-      "LLY",
-      "TMO",
-      "MU",
-      "ANET",
-      "GOOGL"
-    ],
-    "closest": {
-      "market": "US",
-      "symbol": "V",
-      "name": "Visa Inc.",
-      "state": "STABILIZING"
-    }
-  },
-  "ai_final_reason": "No candidate promoted to READY NOW because current Alarm timing layer (Daily/60m STC and BUY state) is not fully verified. V has the cleanest pullback/stabilization structure among cross-validated candidates.",
-  "self_validation": {
-    "fact_integrity": "PASS",
-    "no_fabrication": "PASS",
-    "source_date_semantics": "PASS",
-    "no_repeated_rescan": "PASS",
-    "time_budget": "PASS",
-    "false_positive_review": "PASS",
-    "false_negative_review": "PASS_WITH_LIMITATION",
-    "alarm_consistency": "PARTIAL_DATA_HOLD",
-    "structural_problem": "NO",
-    "rule_change": "NO",
-    "current_version_action": "KEEP_v5.0.0_FROZEN_CURRENT"
-  },
-  "execution_status": "RESULT_COMPLETE_WITH_ALARM_DATA_HOLD",
-  "next_run_preferred_path": "Reuse validated bulk assets only if market dates remain current; refresh after next completed session; obtain Daily+60m complete bars for L4 candidates before READY promotion."
+  "prompt_self_validation": "PASS_NO_STRUCTURAL_CHANGE",
+  "execution_status": "COMPLETE"
 }
