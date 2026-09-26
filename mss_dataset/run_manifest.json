@@ -1,67 +1,77 @@
 {
-  "schema": "mss_run_manifest_v2",
-  "run_id": "20260926-MSS-v4.11.0-R2",
-  "mss_version": "v4.11.0",
+  "schema": "mss_run_manifest_v5",
+  "run_id": "20260926-MSS-v5.0.0-R1",
+  "mss_version": "v5.0.0",
   "execution_date": "2026-09-26",
-  "execution_context_asof": "2026-09-26 KST",
-  "latest_completed_trading_day": {
+  "current_master": "master/MSS_MASTER_v5.0.0_FROZEN_CURRENT.md",
+  "market_dates": {
     "KR": "2026-09-23",
     "US": "2026-09-25"
   },
-  "data_bar_date": {
-    "KR": "2026-09-23",
-    "US_bulk": "2026-09-24",
-    "US_targeted": "2026-09-25"
-  },
-  "actual_scan_path": "REUSE VALID KR FULL ASSET → REFRESH US PRIMARY BULK → NORMALIZE/DEDUPE 5,277 → SCORE ALL ELIGIBLE → LEVEL1 300 → LEVEL2 40 → LEVEL3 20 → LEVEL4 10 → TARGETED SEP25 COMPLETED-BAR RECOVERY → AI REVIEW",
-  "recovery_path": "Runtime manifest validation → source freshness diagnosis → targeted public historical OHLCV → cross-validation → Best Available Evidence",
-  "dataset_paths": [
-    "mss_dataset/universe_kr.csv",
-    "mss_dataset/universe_us.csv",
-    "mss_dataset/level1_market.csv",
-    "mss_dataset/level2_trend.csv",
-    "mss_dataset/level3_pullback.csv",
-    "mss_dataset/level4_6gate.csv",
-    "mss_dataset/source_manifest.json",
-    "mss_dataset/scan_counter.json",
-    "mss_dataset/run_manifest.json"
-  ],
-  "asset_status": "UPDATED_AND_PERSISTED_TO_GITHUB",
+  "actual_scan_path": "VALIDATE CURRENT → REUSE VALID KR/US UNIVERSE INPUT → ONE-PASS CHEAP SCREEN → L1 300 → L2 100 → L3 30 → L4 10 → TARGETED LATEST CONTEXT → ALARM DATA HOLD CHECK → AI INDEPENDENT REVIEW → AI FINAL → SELF-VALIDATION",
+  "recovery_path": "Reuse v4.11 assets as input only → separate SourceFetchedAt/DataBarDate/LatestCompletedTradingDay → targeted web cross-validation for L4",
   "reused_assets": [
     "universe_kr.csv",
-    "KR rows of level1_market.csv",
-    "KR rows of level2_trend.csv",
-    "KR rows of level3_pullback.csv",
-    "KR rows of level4_6gate.csv"
+    "universe_us.csv",
+    "level1_market.csv"
   ],
   "rebuilt_assets": [
-    "universe_us.csv",
-    "US rows of level1_market.csv",
-    "US rows of level2_trend.csv",
-    "US rows of level3_pullback.csv",
-    "US rows of level4_6gate.csv",
+    "level2_trend.csv",
+    "level3_pullback.csv",
+    "level4_6gate.csv",
     "source_manifest.json",
     "scan_counter.json",
     "run_manifest.json"
   ],
-  "unresolved_assets": [
-    "Broad all-symbol US Sep25 completed OHLCV not available from the primary bulk source during this run.",
-    "Deep 6-month historical verification is targeted rather than bulk-persisted for every new US Level3 provisional symbol.",
-    "KR broad sector mapping remains derived from Industry rather than official KRX sector taxonomy."
-  ],
-  "candidate_summary": {
+  "time_budget_stop": "YES",
+  "repeated_full_rescan": false,
+  "alarm_layer_status": "PARTIAL_DATA_HOLD",
+  "final_recommendation": {
     "ready_now": [],
+    "stabilizing": [
+      "V",
+      "009150",
+      "108490",
+      "000660",
+      "CDNS"
+    ],
+    "wait_for_first_pullback": [
+      "AMD",
+      "META",
+      "INTC",
+      "222800",
+      "067310"
+    ],
+    "watch": [
+      "062040",
+      "000990",
+      "LLY",
+      "TMO",
+      "MU",
+      "ANET",
+      "GOOGL"
+    ],
     "closest": {
       "market": "US",
       "symbol": "V",
       "name": "Visa Inc.",
-      "state": "STABILIZING",
-      "evidence": "~6% healthy pullback from Aug high area, Sep23-25 stabilization; prior six-month reviewed history shows no earlier >8% qualifying pullback."
+      "state": "STABILIZING"
     }
   },
-  "execution_status": "RESULT_COMPLETE_WITH_TARGETED_FRESHNESS_EXCEPTION",
-  "post_run_structural_problem": "YES_SOURCE_DATE_SEMANTICS",
-  "next_run_preferred_path": "Resolve CURRENT Master → verify SourceFetchedAt separately from DataBarDate → validate LatestCompletedTradingDay → reuse valid KR assets → refresh US bulk → backfill latest completed bars for Level3/4 before promotion → rerun staged compression.",
-  "reuse_readiness": "READY_WITH_FRESHNESS_GATE",
-  "post_run_master_candidate": "v4.13.0"
+  "ai_final_reason": "No candidate promoted to READY NOW because current Alarm timing layer (Daily/60m STC and BUY state) is not fully verified. V has the cleanest pullback/stabilization structure among cross-validated candidates.",
+  "self_validation": {
+    "fact_integrity": "PASS",
+    "no_fabrication": "PASS",
+    "source_date_semantics": "PASS",
+    "no_repeated_rescan": "PASS",
+    "time_budget": "PASS",
+    "false_positive_review": "PASS",
+    "false_negative_review": "PASS_WITH_LIMITATION",
+    "alarm_consistency": "PARTIAL_DATA_HOLD",
+    "structural_problem": "NO",
+    "rule_change": "NO",
+    "current_version_action": "KEEP_v5.0.0_FROZEN_CURRENT"
+  },
+  "execution_status": "RESULT_COMPLETE_WITH_ALARM_DATA_HOLD",
+  "next_run_preferred_path": "Reuse validated bulk assets only if market dates remain current; refresh after next completed session; obtain Daily+60m complete bars for L4 candidates before READY promotion."
 }
