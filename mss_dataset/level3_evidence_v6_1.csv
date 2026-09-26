@@ -1,0 +1,61 @@
+market,symbol,name,history_focus,price_position_focus,status
+KR,222800,심텍,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,010170,대한광통신,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,098120,마이크로컨텍솔,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,001820,삼화콘덴서,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,010950,S-Oil,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,003490,대한항공,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,036930,주성엔지니어링,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,119850,지엔씨에너지,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,131290,티에스이,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,161890,한국콜마,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,066570,LG전자,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,006340,대원전선,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,028050,삼성E&A,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,024840,KBI메탈,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,059090,미코,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,425420,티에프이,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,105560,KB금융,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,055550,신한지주,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,086790,하나금융지주,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,108490,로보티즈,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,252990,샘씨엔에스,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,031980,피에스케이홀딩스,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,316140,우리금융지주,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,006400,삼성SDI,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,443060,HD현대마린솔루션,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,138040,메리츠금융지주,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,180640,한진칼,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,403870,HPSP,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,000810,삼성화재,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+KR,090430,아모레퍼시픽,multi_horizon_return/drawdown,recent_daily_move/overextension,L3_REVIEW
+US,AMD,Advanced Micro Devices Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,LLY,Eli Lilly and Company Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,V,Visa Inc.,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,GOOGL,Alphabet Inc. Class A Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,TMO,Thermo Fisher Scientific Inc Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,GOOG,Alphabet Inc. Class C Capital Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,DIS,Walt Disney Company (The) Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,VZ,Verizon Communications Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,VLO,Valero Energy Corporation Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,MU,Micron Technology Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,MA,Mastercard Incorporated Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,UNH,UnitedHealth Group Incorporated Common Stock (DE),recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,HPE,Hewlett Packard Enterprise Company Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,DDOG,Datadog Inc. Class A Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,AXP,American Express Company Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,SNPS,Synopsys Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,CTAS,Cintas Corporation Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,WELL,Welltower Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,APH,Amphenol Corporation Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,DHR,Danaher Corporation Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,ANET,Arista Networks Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,XOM,ExxonMobil Holdings Corporation Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,CSCO,Cisco Systems Inc. Common Stock (DE),recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,JNJ,Johnson & Johnson Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,BKNG,Booking Holdings Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,ABNB,Airbnb Inc. Class A Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,PLTR,Palantir Technologies Inc. Class A Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,NFLX,Netflix Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,BLK,BlackRock Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
+US,PFE,Pfizer Inc. Common Stock,recent_price_history/relative_strength,current_vs_recent_high/event_proximity,L3_REVIEW
