@@ -25,7 +25,7 @@
   "ai_final_approval": "APPROVED",
   "auto_freeze": "COMPLETE",
   "runtime_manifest": "mss_dataset/run_manifest.json",
-  "runtime_status": "V6.1_RUNTIME_INPUT_COMPATIBLE; V6.2_EXECUTION_PENDING",
+  "runtime_status": "V6.2_RUNTIME_CURRENT",
   "fresh_discovery_contract": "Every run rebuilds candidate priority from latest validated open-market universe; previous recommendations have no automatic priority.",
   "mandatory_conclusion_block": [
     "MSS 한줄 결론",
@@ -34,5 +34,8 @@
     "│ Confidence: [HIGH/MEDIUM/LOW]",
     "│ 핵심: [가장 중요한 한 문장]"
   ],
-  "pointer_rule": "current.json is the sole CURRENT authority."
+  "pointer_rule": "current.json is the sole CURRENT authority.",
+  "runtime_run_id": "20260926-MSS-v6.2.0-R1",
+  "runtime_execution_status": "COMPLETE",
+  "evidence_manifest": "mss_dataset/evidence_manifest_v6_2.json"
 }
