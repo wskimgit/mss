@@ -183,6 +183,33 @@ HIGH / MEDIUM / LOW / UNVERIFIED
 
 Specific STC or 60m absence does not automatically imply low confidence.
 
+# 11-A. MARKET / COUNTER / ASSET INHERITANCE
+- KR and US are handled independently; one market's source failure does not invalidate the other.
+- Sector representation is checked as evidence of universe quality, but no fixed sector count overrides AI FINAL.
+- Market Scan Counter and user/execution counters are separate.
+- Counter failure does not stop market analysis.
+- Do not infer unique users when no real User Registry exists.
+- Historical scan counts are never reused as current-run counts.
+- Web search is never used to pad actual scan counts.
+
+Preserve and validate reusable runtime assets when available:
+- mss_dataset/universe_kr.csv
+- mss_dataset/universe_us.csv
+- mss_dataset/level1_market.csv
+- mss_dataset/level2_trend.csv
+- mss_dataset/level3_pullback.csv
+- mss_dataset/level4_6gate.csv or its schema-compatible successor
+- mss_dataset/source_manifest.json
+- mss_dataset/scan_counter.json
+- mss_dataset/run_manifest.json
+
+VALID → reuse after freshness validation.
+STALE/PARTIAL → targeted refresh/backfill.
+CORRUPT/INVALID → rebuild and record the cause.
+NOT FOUND → reacquire if information value justifies the cost.
+
+Previous runtime assets may be reused as INPUT only; they are never relabeled as a new-version execution result.
+
 # 12. RUNTIME PROVENANCE
 Record:
 - raw universe
@@ -211,6 +238,12 @@ Keep output concise and non-duplicative.
 # 14. VERSION AUTHORITY
 current.json alone determines CURRENT.
 Frozen masters are immutable.
+Previous frozen masters and regression reports are preserved as HISTORICAL evidence and are never overwritten.
+Version number alone has no authority.
+Semantic versioning:
+- PATCH: non-functional wording/metadata
+- MINOR: compatible evidence/output capability extension
+- MAJOR: authority hierarchy, objective, core evidence architecture, or version-governance change
 
 Promotion:
 Candidate
@@ -229,6 +262,12 @@ Candidate
    → replaced by mandatory prompt-level structural audit.
 3. Final status depending too strongly on fixed timing modules
    → replaced by evidence sufficiency + AI FINAL.
+
+# 15-A. CONTRACT INHERITANCE
+All validated parent contracts remain active unless explicitly replaced in section 15.
+Unapproved removal of a parent required feature blocks promotion.
+The v6 replacements are limited to fixed-indicator gating and result-only self-validation.
+Data integrity, recovery, provenance, runtime assetization, independent market handling, current-pointer authority, counter isolation, and historical preservation remain inherited.
 
 # 16. REGRESSION CONTRACT
 01 FACT boundary
@@ -299,6 +338,22 @@ Candidate
 66 AI judgment allowed without STC when evidence sufficient
 67 positive STC does not force AI selection
 68 candidate quality over indicator completeness
+69 KR/US independent handling
+70 sector representation review
+71 market counter separate from user counter
+72 counter failure isolation
+73 user-registry honesty
+74 prior scan counts not reused
+75 web search not used to pad counts
+76 runtime asset paths preserved
+77 stale/partial targeted refresh
+78 corrupt asset rebuild
+79 previous runtime input-only rule
+80 contract inheritance explicit
+81 unapproved parent-feature removal blocks promotion
+82 historical master preservation
+83 version number not authority
+84 semantic versioning explicit
 
 Any FAIL blocks promotion.
 
