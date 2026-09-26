@@ -20,10 +20,10 @@
     "total": 180
   },
   "restoration_checks": {
-    "passed": 15,
-    "failed": 1,
+    "passed": 16,
+    "failed": 0,
     "total": 16,
-    "status": "FAIL"
+    "status": "PASS"
   },
   "invalidated_lower_output_override": "MSS 최종 결론 -> 무효",
   "restored_output_title": "MSS 한줄 결론",
