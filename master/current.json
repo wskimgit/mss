@@ -1,41 +1,38 @@
 {
   "system": "MSS",
-  "current": "v6.2.0",
-  "previous": "v6.1.1",
+  "current": "v6.2.1",
+  "previous": "v6.2.0",
   "status": "FROZEN_CURRENT",
   "authority": "SINGLE_CURRENT",
-  "master_path": "master/MSS_MASTER_v6.2.0_FROZEN_CURRENT.md",
+  "master_path": "master/MSS_MASTER_v6.2.1_FROZEN_CURRENT.md",
   "master_hash": {
     "algorithm": "git_blob_sha1",
-    "value": "525851c0380039a68966e61e3eda8f177ae42942"
+    "value": "e127a821682b30d6661b20d40f80314a5d2f2bde"
   },
   "sha256": null,
-  "regression_report": "master/MSS_v6.2.0_REGRESSION_REPORT.json",
+  "regression_report": "master/MSS_v6.2.1_REGRESSION_REPORT.json",
   "regression": {
-    "passed": 86,
+    "passed": 94,
     "failed": 0,
-    "total": 86
+    "total": 94
   },
   "structural_dry_run": {
-    "passed": 7,
+    "passed": 8,
     "failed": 0,
-    "total": 7,
+    "total": 8,
     "status": "PASS"
   },
   "ai_final_approval": "APPROVED",
   "auto_freeze": "COMPLETE",
   "runtime_manifest": "mss_dataset/run_manifest.json",
-  "runtime_status": "V6.2_RUNTIME_CURRENT",
-  "fresh_discovery_contract": "Every run rebuilds candidate priority from latest validated open-market universe; previous recommendations have no automatic priority.",
+  "runtime_status": "V6.2_RUNTIME_INPUT_COMPATIBLE; V6.2.1_EXECUTION_PENDING",
+  "display_language": "KOREAN",
   "mandatory_conclusion_block": [
     "MSS 한줄 결론",
-    "│ 최우선: [종목/NONE]",
-    "│ 다음 후보: [종목들/NONE]",
-    "│ Confidence: [HIGH/MEDIUM/LOW]",
+    "│ 최우선: [종목/없음]",
+    "│ 다음 후보: [종목들/없음]",
+    "│ 신뢰도: [높음/중상/중간/중하/낮음]",
     "│ 핵심: [가장 중요한 한 문장]"
   ],
-  "pointer_rule": "current.json is the sole CURRENT authority.",
-  "runtime_run_id": "20260926-MSS-v6.2.0-R1",
-  "runtime_execution_status": "COMPLETE",
-  "evidence_manifest": "mss_dataset/evidence_manifest_v6_2.json"
+  "pointer_rule": "current.json is the sole CURRENT authority."
 }
