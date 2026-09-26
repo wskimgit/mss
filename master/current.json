@@ -1,28 +1,30 @@
 {
   "system": "MSS",
-  "current": "v5.0.0",
-  "previous": "v4.11.0",
+  "current": "v6.0.0",
+  "previous": "v5.0.0",
   "status": "FROZEN_CURRENT",
   "authority": "SINGLE_CURRENT",
-  "master_path": "master/MSS_MASTER_v5.0.0_FROZEN_CURRENT.md",
+  "master_path": "master/MSS_MASTER_v6.0.0_FROZEN_CURRENT.md",
   "master_hash": {
     "algorithm": "git_blob_sha1",
-    "value": "145cfa5aa5024dfbb7251d3bb49716f6b312598a"
+    "value": "f28b36afb6a1000775c368c74f0b821639465730"
   },
   "sha256": null,
-  "regression_report": "master/MSS_v5.0.0_REGRESSION_REPORT.json",
+  "regression_report": "master/MSS_v6.0.0_REGRESSION_REPORT.json",
   "regression": {
-    "passed": 80,
+    "passed": 84,
     "failed": 0,
-    "total": 80
+    "total": 84
   },
-  "structural_dry_run": "PASS",
-  "alarm_lineage": "ALARM_MS7-STC_DISTRIBUTION_v1.0.3",
-  "runtime_manifest": "mss_dataset/run_manifest.json",
-  "runtime_status": "V5_RUNTIME_CURRENT",
+  "structural_dry_run": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "status": "PASS"
+  },
   "ai_final_approval": "APPROVED",
   "auto_freeze": "COMPLETE",
-  "pointer_rule": "current.json is the sole CURRENT authority; internal CURRENT labels in historical files are non-authoritative.",
-  "runtime_run_id": "20260926-MSS-v5.0.0-R1",
-  "runtime_execution_status": "RESULT_COMPLETE_WITH_ALARM_DATA_HOLD"
+  "runtime_manifest": "mss_dataset/run_manifest.json",
+  "runtime_status": "V5_RUNTIME_INPUT_COMPATIBLE; V6_EXECUTION_PENDING",
+  "pointer_rule": "current.json is the sole CURRENT authority; internal CURRENT labels in historical files are non-authoritative."
 }
