@@ -43,8 +43,8 @@
   "time_budget_value_ko": "미설정",
   "time_budget_stop_ko": "아니오",
   "stop_reason_ko": "정상 압축경로 완료",
-  "prompt_self_validation_ko": "검증중",
-  "structural_problem_ko": "검증중",
+  "prompt_self_validation_ko": "통과",
+  "structural_problem_ko": "아니오",
   "mandatory_conclusion_block": [
     "MSS 한줄 결론",
     "│ 최우선: 엔비디아(NVDA)",
@@ -52,5 +52,14 @@
     "│ 신뢰도: 중상",
     "│ 핵심: 미국 전체시장 원자료는 하루 지연됐지만 단계 계보와 최신 가격 검증을 통과한 후보 중 엔비디아가 성장성과 가격위치의 균형에서 가장 앞섰고, 일진전기와 시스코가 실적·수주 지속성으로 뒤를 이었습니다."
   ],
-  "execution_status_ko": "검증중"
+  "execution_status_ko": "완료",
+  "execution_start_kst": "2026-09-26T12:44:28.981462+09:00",
+  "execution_end_kst": "2026-09-26T12:57:12.574295+09:00",
+  "elapsed_seconds": 763.593,
+  "elapsed_ko": "12분 43.6초",
+  "forced_consistency_tests": {
+    "passed": 24,
+    "failed": 0,
+    "total": 24
+  }
 }
