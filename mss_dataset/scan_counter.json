@@ -1,58 +1,28 @@
 {
-  "schema": "mss_scan_counter_v5",
-  "run_id": "20260926-MSS-v5.0.0-R1",
-  "mss_version": "v5.0.0",
+  "schema": "mss_scan_counter_v6",
+  "run_id": "20260926-MSS-v6.0.0-R1",
+  "mss_version": "v6.0.0",
   "KR": {
-    "raw": 2870,
+    "raw": 2470,
     "actual_unique_processed": 2470,
     "level1": 300,
     "level2": 100,
     "level3": 30,
-    "level4": 10,
-    "sector_coverage": "PASS",
-    "sector_counts_L1": {
-      "Technology": 81,
-      "Other": 36,
-      "Industrials": 65,
-      "Energy": 2,
-      "Utilities": 10,
-      "Materials": 34,
-      "Financials": 44,
-      "Healthcare": 16,
-      "Real Estate": 1,
-      "Consumer": 9,
-      "Communication": 2
-    }
+    "level4": 10
   },
   "US": {
-    "raw": 7017,
+    "raw": 5277,
     "actual_unique_processed": 5277,
     "level1": 300,
     "level2": 100,
     "level3": 30,
-    "level4": 10,
-    "sector_coverage": "PASS",
-    "sector_counts_L1": {
-      "Technology": 56,
-      "Health Care": 39,
-      "Consumer Discretionary": 56,
-      "Industrials": 47,
-      "Telecommunications": 9,
-      "Energy": 15,
-      "Finance": 39,
-      "Real Estate": 10,
-      "Consumer Staples": 7,
-      "Utilities": 17,
-      "Uncategorized": 1,
-      "Basic Materials": 4
-    }
+    "level4": 10
   },
   "total_actual_unique_processed": 7747,
-  "funnel": "OPEN_MARKET_ONCE → 300 → 100 → 30 → 10 → AI FINAL",
+  "funnel": "OPEN MARKET INPUT → 300 → 100 → 30 → 10 → AI FINAL",
   "repeated_full_rescan": false,
   "time_budget_stop": "YES",
-  "time_budget_stop_reason": "Sufficient sector/leadership coverage obtained; marginal breadth information lower than deep-validation value.",
-  "scan_coverage": "FULL_BULK_INPUT_WITH_US_ONE_DAY_STALE_PRICE_BAR",
-  "recommendation_confidence": "MEDIUM",
+  "time_budget_stop_reason": "Broad sector/leadership coverage sufficient; incremental breadth value below targeted evidence review value.",
+  "coverage": "SUFFICIENT_WITH_US_BULK_1D_STALE_AND_TARGETED_L4_REFRESH",
   "fabrication": 0
 }
