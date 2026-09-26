@@ -1,8 +1,8 @@
 {
   "schema": "mss_fresh_discovery_v6_2_1",
-  "run_id": "20260926-MSS-v6.2.1-R1",
+  "run_id": "20260926-MSS-v6.2.1-R2",
   "mss_version": "v6.2.1",
-  "prior_recommendations_used_as_seed": false,
+  "previous_recommendations_used_as_seed": false,
   "prior_rank_or_score_reused": false,
   "raw_market_assets_reused_after_freshness_validation": true,
   "current_run_scoring_rebuilt": true,
@@ -39,24 +39,6 @@
       "confidence_ko": "중상"
     }
   ],
-  "comparison_after_selection": {
-    "previous_top": [
-      "NVDA",
-      "LLY",
-      "000150"
-    ],
-    "current_top": [
-      "NVDA",
-      "LLY",
-      "000150"
-    ],
-    "overlap": [
-      "NVDA",
-      "LLY",
-      "000150"
-    ],
-    "interpretation_ko": "이전 추천을 입력으로 쓰지 않았지만 최신 근거에서도 세 종목이 독립적으로 다시 자격을 얻음."
-  },
   "independent_review": {
     "anchoring_bias_check_ko": "통과",
     "false_positive_review_ko": "통과",
