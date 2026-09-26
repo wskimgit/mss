@@ -1,45 +1,43 @@
 {
-  "schema": "mss_run_manifest_v6_2",
-  "run_id": "20260926-MSS-v6.2.0-R1",
-  "mss_version": "v6.2.0",
+  "schema": "mss_run_manifest_v6_2_1",
+  "run_id": "20260926-MSS-v6.2.1-R1",
+  "mss_version": "v6.2.1",
   "execution_date": "2026-09-26",
-  "current_master": "master/MSS_MASTER_v6.2.0_FROZEN_CURRENT.md",
+  "current_master": "master/MSS_MASTER_v6.2.1_FROZEN_CURRENT.md",
   "market_dates": {
     "KR": "2026-09-23",
     "US": "2026-09-25"
   },
-  "execution_path": "CURRENT → FRESHNESS CHECK → RAW UNIVERSE REUSE ONLY → NEW CURRENT-RUN SCORING → 300→100→30→10 → TARGETED CURRENT EVIDENCE → AI INDEPENDENT REVIEW → AI FINAL → ONLY THEN PREVIOUS-RUN COMPARISON → PROMPT SELF-VALIDATION",
-  "prior_recommendations_as_seed": false,
+  "previous_recommendations_as_seed": false,
   "prior_rank_reused": false,
   "current_run_scoring_rebuilt": true,
+  "display_language": "KOREAN",
   "selected_now": [
     "NVDA",
     "LLY",
     "000150"
   ],
   "stabilizing": [
-    "036930",
-    "001820",
     "GOOGL",
-    "V"
+    "AMZN",
+    "036930",
+    "001820"
   ],
   "wait": [
     "AMD",
     "MU",
-    "META",
-    "095610",
     "222800"
   ],
-  "coverage": "SUFFICIENT",
-  "overall_confidence": "HIGH_MEDIUM",
-  "time_budget_stop": "YES",
-  "prompt_self_validation": "PASS_NO_STRUCTURAL_CHANGE",
+  "coverage_ko": "충분",
+  "overall_confidence_ko": "중상",
+  "time_budget_stop_ko": "예",
+  "prompt_self_validation_ko": "통과_구조변경없음",
   "mandatory_conclusion_block": [
     "MSS 한줄 결론",
-    "│ 최우선: NVDA",
-    "│ 다음 후보: LLY, 두산",
-    "│ Confidence: HIGH-MEDIUM",
-    "│ 핵심: 이전 추천을 모두 초기화한 새 열린 스캔에서 NVDA가 실적 성장·AI 수요·가격위치의 균형이 가장 우수했고, LLY와 두산이 각각 실적 가속과 AI 소재 성장성으로 뒤를 이었습니다."
+    "│ 최우선: 엔비디아(NVDA)",
+    "│ 다음 후보: 일라이릴리(LLY), 두산",
+    "│ 신뢰도: 중상",
+    "│ 핵심: 이전 추천을 출발점으로 쓰지 않은 새 열린시장 평가에서도 엔비디아가 실적 성장·인공지능 수요·가격위치의 균형에서 가장 우수했고, 일라이릴리와 두산이 뒤를 이었습니다."
   ],
-  "execution_status": "COMPLETE"
+  "execution_status_ko": "완료"
 }
