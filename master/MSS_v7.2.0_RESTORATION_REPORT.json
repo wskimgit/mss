@@ -1,0 +1,31 @@
+{
+  "schema": "mss_v7_2_restoration_regression",
+  "version": "v7.2.0",
+  "date": "2026-09-26",
+  "canonical_core": {
+    "path": "master/MSS_MASTER_v6.2.1_FROZEN_CURRENT.md",
+    "sha": "e127a821682b30d6661b20d40f80314a5d2f2bde"
+  },
+  "core_guard": {
+    "path": "master/MSS_CORE_GUARD_v1.0_FROZEN.md",
+    "sha": "d7e999d2e34797ca20012f447ca10b49ac9613e6"
+  },
+  "validation_binding": {
+    "path": "master/MSS_VALIDATION_BINDING_v7.2.0_FROZEN.md",
+    "sha": "3d36c618aec7b8a4f110c1d168da6eeb5eb668da"
+  },
+  "prior_validation_regression": {
+    "passed": 180,
+    "failed": 0,
+    "total": 180
+  },
+  "restoration_checks": {
+    "passed": 15,
+    "failed": 1,
+    "total": 16,
+    "status": "FAIL"
+  },
+  "invalidated_lower_output_override": "MSS 최종 결론 -> 무효",
+  "restored_output_title": "MSS 한줄 결론",
+  "runtime_after_restore": "NOT_RUN"
+}
