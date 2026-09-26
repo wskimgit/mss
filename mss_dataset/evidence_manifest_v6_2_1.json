@@ -1,6 +1,6 @@
 {
   "schema": "mss_fresh_discovery_v6_2_1",
-  "run_id": "20260926-MSS-v6.2.1-R2",
+  "run_id": "20260926-MSS-v6.2.1-R3",
   "mss_version": "v6.2.1",
   "previous_recommendations_used_as_seed": false,
   "prior_rank_or_score_reused": false,
@@ -36,9 +36,36 @@
       "market": "US",
       "symbol": "AMZN",
       "state_ko": "안정화",
-      "confidence_ko": "중상"
+      "confidence_ko": "중간"
     }
   ],
+  "latest_price_validation": {
+    "NVDA": {
+      "date": "2026-09-25",
+      "close": 224.69,
+      "status_ko": "검증"
+    },
+    "LLY": {
+      "date": "2026-09-25",
+      "close": 1175.54,
+      "status_ko": "검증"
+    },
+    "GOOGL": {
+      "date": "2026-09-25",
+      "close": 343.92,
+      "status_ko": "검증"
+    },
+    "AMZN": {
+      "date": "2026-09-24",
+      "close": 249.38,
+      "status_ko": "9월25일 종가 미검증"
+    },
+    "DOOSAN_000150": {
+      "date": "2026-09-23",
+      "close": 1512000,
+      "status_ko": "검증"
+    }
+  },
   "independent_review": {
     "anchoring_bias_check_ko": "통과",
     "false_positive_review_ko": "통과",
@@ -56,6 +83,7 @@
     "user_visible_language_ko": "통과",
     "non_executable_step_remaining_ko": "없음",
     "lower_rule_override_ko": "없음",
+    "data_correction_loop_ko": "통과",
     "structural_problem_ko": "아니오",
     "rule_change_ko": "아니오",
     "version_action_ko": "v6.2.1 동결·현재 유지"
