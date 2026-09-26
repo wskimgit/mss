@@ -1,36 +1,31 @@
 {
-  "schema": "mss_scan_counter_v7",
-  "run_id": "20260926-MSS-v7.0.0-R1",
-  "mss_version": "v7.0.0",
+  "schema": "mss_scan_counter_v7_1",
+  "run_id": "20260926-MSS-v7.1.0-R1",
+  "mss_version": "v7.1.0",
   "KR": {
     "raw": 2470,
-    "actual_unique_processed": 2470,
     "level1": 300,
     "level2": 100,
-    "level3": 15,
-    "level4": 4
+    "level3_entry": 10,
+    "level3_verified": 7,
+    "level4": 3
   },
   "US": {
     "raw": 5277,
-    "actual_unique_processed": 5277,
     "level1": 300,
     "level2": 100,
-    "level3": 15,
-    "level4": 6
+    "level3_entry": 10,
+    "level3_verified": 9,
+    "level4": 4
   },
-  "total_actual_unique_processed": 7747,
+  "total_raw": 7747,
   "total_level1": 600,
   "total_level2": 200,
-  "total_level3": 30,
-  "total_level4": 10,
-  "final": 3,
-  "lineage_rule": "최종후보 ⊆ 4단계 ⊆ 3단계 ⊆ 2단계 ⊆ 1단계",
-  "exception_reentry": false,
-  "repeated_full_rescan": false,
-  "previous_recommendation_priority": false,
-  "time_budget_value_ko": "미설정",
-  "time_budget_stop_ko": "아니오",
-  "stop_reason_ko": "정상 압축경로 완료",
+  "total_level3_entry": 20,
+  "total_level3_verified": 16,
+  "total_level4": 7,
+  "selected_now": 2,
+  "fixed_country_allocation": false,
   "coverage_ko": "부분",
   "fabrication": 0
 }
