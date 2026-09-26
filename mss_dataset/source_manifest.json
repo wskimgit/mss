@@ -1,6 +1,6 @@
 {
   "schema": "mss_source_manifest_v6_2_1",
-  "run_id": "20260926-MSS-v6.2.1-R2",
+  "run_id": "20260926-MSS-v6.2.1-R3",
   "mss_version": "v6.2.1",
   "execution_date": "2026-09-26",
   "markets": {
@@ -11,19 +11,22 @@
       "bulk_source": "FinanceData/fdr_krx_data_cache raw universe",
       "targeted_sources": [
         "Investing.com 두산 9월23일 종가",
-        "한국경제·매일경제 두산 동박적층판 투자"
+        "연합뉴스/한국경제 두산 동박적층판 투자"
       ]
     },
     "US": {
       "LatestCompletedTradingDay": "2026-09-25",
       "DataBarDate_bulk": "2026-09-24",
-      "freshness_ko": "전체시장 원자료는 하루 지연, 상위후보는 9월25일 별도 검증",
+      "freshness_ko": "전체시장 원자료는 하루 지연, 상위후보는 가능한 범위에서 9월25일 별도 검증",
       "bulk_source": "Nasdaq screener raw universe",
       "targeted_sources": [
-        "FinanceCharts",
+        "Investing.com/StockAnalysis 가격기록",
         "NVIDIA 투자자관계",
         "Eli Lilly 투자자관계",
         "Micron 투자자관계"
+      ],
+      "limitations_ko": [
+        "아마존 9월25일 종가는 독립 검증하지 못해 9월24일 종가만 사용"
       ]
     }
   },
