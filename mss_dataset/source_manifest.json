@@ -1,36 +1,41 @@
 {
-  "schema": "mss_source_manifest_v7",
-  "run_id": "20260926-MSS-v7.0.0-R1",
-  "mss_version": "v7.0.0",
-  "execution_date": "2026-09-26",
+  "schema": "mss_source_manifest_v7_1",
+  "run_id": "20260926-MSS-v7.1.0-R1",
+  "mss_version": "v7.1.0",
+  "acquisition_package_time_utc": "2026-09-26T05:02:25Z",
+  "acquisition_package_time_source": "GitHub commit 8fc0f5941cd07c9c721d2204414a98c603abf429 after web evidence retrieval",
   "markets": {
     "KR": {
-      "LatestCompletedTradingDay": "2026-09-23",
-      "DataBarDate": "2026-09-23",
+      "latest_completed_trading_day": "2026-09-23",
+      "bulk_data_bar_date": "2026-09-23",
       "freshness_ko": "최신",
-      "bulk_source": "FinanceData/fdr_krx_data_cache raw universe asset",
-      "targeted_sources_ko": [
-        "한국거래일·추석 휴장 확인",
-        "한국경제 시장·실적 자료",
-        "기업별 최근 실적 기사"
-      ]
+      "discovery_gap_ko": "낮음"
     },
     "US": {
-      "LatestCompletedTradingDay": "2026-09-25",
-      "DataBarDate_bulk": "2026-09-24",
+      "latest_completed_trading_day": "2026-09-25",
+      "bulk_data_bar_date": "2026-09-24",
       "freshness_ko": "하루 지연",
-      "targeted_refresh_ko": "3·4단계 후보는 가능한 범위에서 2026-09-25 가격과 최신 실적을 별도 검증",
-      "targeted_sources_ko": [
-        "엔비디아 투자자관계",
-        "시스코 투자자관계",
-        "FinanceCharts/Investing 가격기록",
-        "기업 투자자관계 자료"
-      ]
+      "discovery_gap_ko": "9월25일 새 강세종목이 광역 1·2단계에 반영되지 않았을 가능성"
     }
   },
-  "limitations_ko": [
-    "미국 전체 5,277종목 원자료는 최신 완료거래일보다 1거래일 지연",
-    "따라서 미국 전체시장을 '최신 열린시장 전체'라고 표현하지 않고 시장포괄도를 부분으로 낮춤"
+  "broad_data_limitations_ko": [
+    "미국 원자료에는 1주·1개월·3개월·6개월 광역 수익률이 없어 1·2단계는 광역 선별점수로만 사용"
+  ],
+  "stage3_sources_ko": [
+    "한국경제/시장 가격자료",
+    "DART 기반 기업행위 확인",
+    "FinanceCharts",
+    "StockAnalysis",
+    "Investing 교차검증"
+  ],
+  "stage4_sources_ko": [
+    "SK이노베이션 공식 IR",
+    "Micron 공식 IR",
+    "Meta 공식 IR",
+    "Reuters",
+    "연합뉴스",
+    "한국경제",
+    "반기보고서 기반 집계 및 증권사 전망 보도"
   ],
   "fabrication": 0
 }
