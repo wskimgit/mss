@@ -39,43 +39,43 @@ KR,033640,네패스,27600,0.36,Technology,0.808682,ANCHOR_RETURNS r1m=43.9750 r3
 KR,046970,우리로,7910,3.94,Other,0.805107,ANCHOR_RETURNS r1m=84.8131 r3m=30.7438 r6m=72.8962,LEVEL2_PASS
 KR,096530,씨젠,34000,-0.58,Healthcare,0.794625,ANCHOR_RETURNS r1m=5.7543 r3m=26.1596 r6m=52.8090,LEVEL2_PASS
 KR,069540,빛과전자,4020,2.29,Technology,0.792944,ANCHOR_RETURNS r1m=43.3155 r3m=56.7251 r6m=53.4351,LEVEL2_PASS
-US,NOW,ServiceNow Inc. Common Stock,140.78,2.759,Technology,0.956167,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,CRM,Salesforce Inc. Common Stock,237.58,1.843,Technology,0.951318,OHLCV_2026 r20=15.82 r60=50.84 r120=27.91,LEVEL2_PASS
-US,XOM,ExxonMobil Holdings Corporation Common Stock,161.23,1.588,Energy,0.951280,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,WDC,Western Digital Corporation Common Stock,473.69,1.957,Technology,0.951011,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,META,Meta Platforms Inc. Class A Common Stock,744.1,1.019,Technology,0.949586,OHLCV_2026 r20=34.97 r60=38.04 r120=35.36,LEVEL2_PASS
-US,CVX,Chevron Corporation Common Stock,205.51,1.532,Energy,0.949476,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,TMUS,T-Mobile US Inc. Common Stock,165.66,2.001,Telecommunications,0.949045,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,FTNT,Fortinet Inc. Common Stock,178.74,2.571,Technology,0.945901,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,BRK/B,Berkshire Hathaway Inc.,507.17,0.731,Uncategorized,0.944390,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,COP,ConocoPhillips Common Stock,128.09,2.251,Energy,0.944343,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,MSFT,Microsoft Corporation Common Stock,500.59,0.52,Technology,0.944293,OHLCV_2026 r20=0.31 r60=33.49 r120=33.33,LEVEL2_PASS
-US,TSLA,Tesla Inc. Common Stock,380.12,0.322,Industrials,0.942290,OHLCV_2026 r20=9.29 r60=-10.14 r120=4.81,LEVEL2_PASS
-US,TMO,Thermo Fisher Scientific Inc Common Stock,665.3,1.03,Industrials,0.941783,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,MA,Mastercard Incorporated Common Stock,559.92,0.725,Consumer Discretionary,0.941488,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,BA,Boeing Company (The) Common Stock,199.93,1.118,Industrials,0.941051,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,CDNS,Cadence Design Systems Inc. Common Stock,309.09,2.027,Technology,0.940799,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,COST,Costco Wholesale Corporation Common Stock,904.7,0.588,Consumer Discretionary,0.940797,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,WMT,Walmart Inc. Common Stock,110.53,0.372,Consumer Discretionary,0.940339,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,HPE,Hewlett Packard Enterprise Company Common Stock,62.33,2.13,Technology,0.940093,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,CAT,Caterpillar Inc. Common Stock,812.02,0.496,Industrials,0.939922,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,PLTR,Palantir Technologies Inc. Class A Common Stock,191.79,3.676,Technology,0.939313,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,AMAT,Applied Materials Inc. Common Stock,474.38,0.406,Technology,0.938898,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,DE,Deere & Company Common Stock,709.48,0.905,Industrials,0.938362,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,DELL,Dell Technologies Inc. Class C Common Stock,549.83,0.166,Technology,0.938076,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,STX,Seagate Technology Holdings PLC Ordinary Shares (Ireland),923.86,0.437,Technology,0.937922,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,AAPL,Apple Inc. Common Stock,337.02,-0.804,Technology,0.931446,OHLCV_2026 r20=7.17 r60=16.09 r120=31.26,LEVEL2_PASS
-US,GOOG,Alphabet Inc. Class C Capital Stock,334.98,-3.578,Technology,0.903189,OHLCV_2026 r20=-0.03 r60=-4.05 r120=15.13,LEVEL2_PROVISIONAL
-US,LRCX,Lam Research Corporation Common Stock,307.28,-1.078,Technology,0.925276,OHLCV_2026 r20=-1.83 r60=-29.12 r120=40.62,LEVEL2_PASS
-US,NVDA,NVIDIA Corporation Common Stock,225.51,-1.468,Technology,0.925193,OHLCV_2026 r20=7.12 r60=12.24 r120=26.60,LEVEL2_PASS
-US,SAP,SAP  SE ADS,210.62,-0.028,Technology,0.832174,OHLCV_2026 r20=-3.60 r60=35.00 r120=22.03,LEVEL2_PASS
-US,TSM,Taiwan Semiconductor Manufacturing Company Ltd.,446.57,-1.201,Technology,0.846629,OHLCV_2026 r20=8.01 r60=-5.53 r120=33.07,LEVEL2_PASS
-US,AMD,Advanced Micro Devices Inc. Common Stock,614.61,-1.468,Technology,0.923667,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,ANET,Arista Networks Inc. Common Stock,203.47,-0.838,Telecommunications,0.918664,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,AVGO,Broadcom Inc. Common Stock,354.99,-2.62,Technology,0.912428,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,AMZN,Amazon.com Inc. Common Stock,249.27,-2.239,Consumer Discretionary,0.916890,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,JPM,JP Morgan Chase & Co. Common Stock,337.53,-0.726,Finance,0.929171,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,LIN,Linde plc Ordinary Shares,469.72,1.035,Basic Materials,0.937664,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,TXN,Texas Instruments Incorporated Common Stock,272.62,0.446,Technology,0.936018,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,T,AT&T Inc.,25.3,0.797,Telecommunications,0.935595,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
-US,PM,Philip Morris International Inc Common Stock,190.84,0.321,Health Care,0.935461,BULK_SNAPSHOT_PROVISIONAL,LEVEL2_PROVISIONAL
+US,META,Meta Platforms Inc. Class A Common Stock,777.59,4.501,Technology,0.971871,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PASS_OR_STRONG_VERIFIED
+US,INTC,Intel Corporation Common Stock,127.39,3.907,Technology,0.970082,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PASS_OR_STRONG_VERIFIED
+US,AMD,Advanced Micro Devices Inc. Common Stock,629.26,2.384,Technology,0.965786,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PASS_OR_STRONG_VERIFIED
+US,LLY,Eli Lilly and Company Common Stock,1181.89,2.685,Health Care,0.965746,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PASS_OR_STRONG_VERIFIED
+US,MRNA,Moderna Inc. Common Stock,194.82,6.979,Health Care,0.960440,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,V,Visa Inc.,367.98,1.787,Consumer Discretionary,0.959686,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PASS_OR_STRONG_VERIFIED
+US,GOOGL,Alphabet Inc. Class A Common Stock,342.36,1.341,Technology,0.959169,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank; class-C history used only as structural cross-check,LEVEL2_PROVISIONAL
+US,TMO,Thermo Fisher Scientific Inc Common Stock,678.39,1.968,Industrials,0.957804,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PASS_OR_STRONG_VERIFIED
+US,GOOG,Alphabet Inc. Class C Capital Stock,339.01,1.203,Technology,0.956994,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank; Pubmarks 6M history available,LEVEL2_MIXED
+US,CDNS,Cadence Design Systems Inc. Common Stock,322,4.177,Technology,0.953921,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PASS_OR_STRONG_VERIFIED
+US,DIS,Walt Disney Company (The) Common Stock,105.56,2.03,Consumer Discretionary,0.952971,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,VZ,Verizon Communications Inc. Common Stock,47.32,1.72,Telecommunications,0.952879,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,VLO,Valero Energy Corporation Common Stock,382.86,1.868,Energy,0.952822,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,RCL,Royal Caribbean Cruises Ltd. Common Stock,238.98,3.769,Consumer Discretionary,0.952259,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,MU,Micron Technology Inc. Common Stock,1080.53,0.807,Technology,0.951477,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,MA,Mastercard Incorporated Common Stock,566.08,1.1,Consumer Discretionary,0.950855,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,P,Everpure Inc. Class A common stock,121.88,11.154,Technology,0.949913,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,UNH,UnitedHealth Group Incorporated Common Stock (DE),375.01,1.002,Health Care,0.949855,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,HPE,Hewlett Packard Enterprise Company Common Stock,63.52,1.909,Technology,0.949677,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,DDOG,Datadog Inc. Class A Common Stock,256.92,2.159,Technology,0.949603,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,AXP,American Express Company Common Stock,305.66,1.225,Finance,0.949299,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,SNPS,Synopsys Inc. Common Stock,424.91,2.869,Technology,0.948945,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,CTAS,Cintas Corporation Common Stock,197.68,2.974,Industrials,0.948177,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,WELL,Welltower Inc. Common Stock,233.61,1.627,Real Estate,0.947655,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,ILMN,Illumina Inc. Common Stock,273.9,7.252,Health Care,0.946761,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,APH,Amphenol Corporation Common Stock,83.08,1.083,Technology,0.946004,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,DHR,Danaher Corporation Common Stock,223.77,0.997,Industrials,0.945337,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,ANET,Arista Networks Inc. Common Stock,205.7,1.096,Telecommunications,0.945106,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,XOM,ExxonMobil Holdings Corporation Common Stock,162.14,0.564,Energy,0.944841,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,CSCO,Cisco Systems Inc. Common Stock (DE),106.97,0.507,Telecommunications,0.944208,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,JNJ,Johnson & Johnson Common Stock,270.68,0.561,Health Care,0.943890,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,BKNG,Booking Holdings Inc. Common Stock,157.41,0.969,Consumer Discretionary,0.943805,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,ABNB,Airbnb Inc. Class A Common Stock,151.39,1.21,Consumer Discretionary,0.943743,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,PLTR,Palantir Technologies Inc. Class A Common Stock,192.59,0.417,Technology,0.942632,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,A,Agilent Technologies Inc. Common Stock,172.84,4.549,Industrials,0.942193,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,NFLX,Netflix Inc. Common Stock,71.72,0.504,Consumer Discretionary,0.942043,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,BLK,BlackRock Inc. Common Stock,1073.45,1.184,Finance,0.941093,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,PFE,Pfizer Inc. Common Stock,28.41,0.816,Health Care,0.940458,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,PWR,Quanta Services Inc. Common Stock,643.5,1.355,Industrials,0.940386,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
+US,COP,ConocoPhillips Common Stock,129.34,0.976,Energy,0.939797,BULK_2026-09-25_FETCH; PRICE_BAR=2026-09-24; liquidity+market-leadership rank,LEVEL2_PROVISIONAL
