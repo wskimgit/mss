@@ -1,0 +1,32 @@
+{
+  "schema": "mss_v7_1_regression",
+  "version": "v7.1.0",
+  "parent": "v7.0.0",
+  "master_sha": "f2e8ee4f564a733cf497dde60dd3d2b74b563993",
+  "validation_sha": "4ee36d1719b772239172548d0419e4b159ce2fc4",
+  "addendum_sha": "0fcc7246ed346ec995412adbc72a3e1e441e8b78",
+  "inherited": {
+    "passed": 140,
+    "failed": 0,
+    "total": 140
+  },
+  "added": {
+    "passed": 40,
+    "failed": 0,
+    "total": 40
+  },
+  "total": {
+    "passed": 180,
+    "failed": 0,
+    "total": 180
+  },
+  "reverse_validation": {
+    "source_run": "20260926-MSS-v7.0.0-R1",
+    "expected": 19,
+    "detected": 19,
+    "result": "PASS"
+  },
+  "approval": "APPROVED",
+  "freeze": "COMPLETE",
+  "runtime": "NOT_RUN"
+}
